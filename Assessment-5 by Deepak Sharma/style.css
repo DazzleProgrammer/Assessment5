@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* left section start */
+.col-xl-2{
+    margin-top: 1rem;
+    height: 150vh;
+    background-color: white;
+    border-top: 2px solid brown;
+}
+
+.logo{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.men-logo img{
+    height: 45px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-left: 6rem;
+}
+
+.men-logo h6{
+    text-align: center;
+}
+
+.men-logo p{
+    text-align: center;
+    color: black;
+    opacity: 0.5;
+}
+
+.men-logo .icon{
+    margin-left: 6rem;
+}
+
+.navigation{
+    opacity: 0.7;
+}
+
+.title{
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.navigation i{
+    margin-right: 1rem;
+    margin-left: 0.7rem;
+}
+
+.circle{
+    float: right;
+    height: 20px;
+    width: 25px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.icon1{
+    margin-left: 0.7rem;
+    opacity: 0.5;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.icon1 i{
+    margin-right: 1rem;
+}
+
+
+
+
+/* right section start */
+.col-xl-9{
+    margin-top: 1rem;
+    height: 103vh;
+    background-color: rgb(26, 25, 25);
+}
+
+.nav{
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center ;
+}
+
+.dash h1{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    width: 28rem;
+}
+
+.form-control{
+    margin-top: 0.3rem;
+    height: 30px;
+    width: 160px;
+    border-radius: 15px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+.search i{
+    position: absolute;
+    margin-top: -1.3rem;
+    margin-left: 8rem;
+}
+
+.men-logo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.men-logo1 img{
+    height: 28px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.men-logo1 span{
+    margin-right: 0.5rem;
+}
+
+.men-logo1 i{
+    margin-right: 1rem;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    color: white;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(48, 47, 47);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.total{
+    margin-bottom: 1rem;
+}
+
+.total span{
+    margin-left: 100px;
+}
+
+.circle1{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 5px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    color: brown;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.number{
+    margin-top: 1rem;
+}
+
+.number h1{
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.number p{
+    opacity: 0.6;
+}
+
+.boxes1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box2{
+    color: white;
+    height: 320px;
+    width: 350px;
+    background-color: rgb(48, 47, 47);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.total1 span{
+    margin-left: 230px;
+}
+
+.boxes2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box3{
+    margin-top: 1rem;
+    color: white;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(48, 47, 47);
+    padding: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.image img{
+    height: 58px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.2rem;
+    margin-top: 1rem;
+}
+
+.content1 p{
+   opacity: 0.6;
+}
+
+.content1 pre{
+    color: yellow;
+}

@@ -1,0 +1,52 @@
+
+
+<div>
+    <mat-drawer-container class="example-container w-100 height-fitcontaient  " >
+        <mat-drawer mode="side" class="bg-transparent"  opened id="abc" style="background-color: white;">
+            <div class="leftPart">
+                <div class="admin" style="margin-top: 30px;">
+                    <h1>Adminto</h1>
+                    <div style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden;"><img src="../assets/blog-user.jpg" alt=""></div>
+                    <h3>Nowak Helme</h3>
+                    <p style="color: rgb(0, 0, 0);">Admin Head</p>
+                    <div><i style="margin-right: 10px;" class="fa-solid fa-gear"></i> <i class="fa-solid fa-power-off"></i></div>
+    
+                </div>
+                <h3><u>NAVIGATION</u></h3>
+                <div style="display: flex; cursor: pointer;" routerLink="/dashboard/third"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>DASHBOARD</h4></div>
+                <h3><u>APPS</u></h3>
+                <div style="display: flex; cursor: pointer;" routerLink="/dashboard/pricing"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Pricing</h4></div>
+                <div style="display: flex;"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Chart</h4></div>
+                <div style="display: flex;"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Email</h4></div>
+                <div style="display: flex;"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Tasks</h4></div>
+                <div style="display: flex;"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Calender</h4></div>
+                <div style="display: flex;"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Contacts</h4></div>
+                <h3><u>CUSTOMS</u></h3>
+                <ul class="item-list">
+                    <li>
+                        <button class="toggle-button"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Auth Pages</h4></button>
+                       
+                    </li>
+                    <li>
+                        <button class="toggle-button"><i style="margin-right: 10px;" class="fa-brands fa-windows"></i> <h4>Extra Pages</h4></button>
+                        <ul class="subitem-list">
+                            <li>Starter</li>
+                            <li>Pricing</li>
+                            <li>Timeline</li>
+                            <li>Invoice</li>
+                            <li>Faq's</li>
+                            <li>Gallerys</li>
+                            <li>Error 404</li>
+                            <li>Error 500</li>
+                            <li>Maintainance</li>
+                            <li>Comming Soon</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </mat-drawer>
+        <mat-drawer-content class="text-center" style="background-color: black;">
+            <router-outlet></router-outlet>
+        </mat-drawer-content>
+    </mat-drawer-container>
+</div>

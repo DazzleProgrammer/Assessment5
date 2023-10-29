@@ -1,0 +1,57 @@
+.bgdf{
+    background-color: #313945;
+}
+.main1{
+    text-align: center;
+    font-weight: bold;
+}
+.main12{
+    text-align: center;
+    font-weight: 300;
+    font-size: large;
+}
+.main123{
+    text-align: center;
+    font-weight: 300;
+    font-size: medium;
+    color: rgb(176, 176, 176);
+}
+.offsign{
+    color: aquamarine;
+}
+.nav-item a{
+    color: rgb(255, 255, 255);
+}
+.mainq{
+    color: white;
+}
+.boxe{
+    background-color: #313945;
+    text-align: center
+}
+.copyright {
+    background: #1d1d1d;
+    padding: 15px 0; }
+    .copyright.copyright-4 {
+      background: #313945; }
+      .copyright.copyright-4 .cp-area p {
+        color: #72839a; }
+    .copyright .cp-area p {
+      font-size: 15px;
+      font-weight: 500;
+      color: #bdbdbd;
+      margin: 0; }
+    .copyright .social-area {
+      float: right; }
+      .copyright .social-area ul li {
+        display: inline-block; }
+        .copyright .social-area ul li a {
+          display: inline-block;
+         font-style: none;
+          text-align: center;
+        
+          color: #fff;
+          font-size: 15px;
+          margin-right: 11px; }
+          
+

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 80px; 
+    background-color: rgb(26, 25, 25);
+   
+}
+header {
+    position: sticky;
+    background-color: transparent;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    padding: 0 10px;
+   
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.lab {
+    cursor: pointer;
+    display: none;
+}
+
+.lab div {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: white;
+}
+nav{
+    color: white !important;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 10px;
+    
+}
+
+
+/* Next */
+.ge1{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.gech{
+    height: 200px;
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+    color: white;
+
+}
+.a h3{
+    padding: 10px;
+}
+.aa{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.aa h1{
+    padding: 10px;
+    border-left: 2px solid red;
+    border-right: 2px solid rgb(245, 151, 151);
+    border-radius: 50%;
+    width: 60px;
+    color: red !important;
+   
+}
+.bb{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bb h1{
+    padding: 10px ;
+    border-radius: 10px;
+    width: 60px;
+    background-color: green;
+    font-size: medium;
+   
+}
+.b h3{
+    padding: 10px;
+}
+.b progress{
+    margin: 10px;
+    width: 70%;
+}
+
+
+/* next */
+.ge2{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+.ge2ch{
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(26, 25, 25);
+}
+
+/* next */
+.ge3{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+.ge3ch{
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(26, 25, 25);
+}
+.fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.fl img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    header .logo{
+        font-size: 25px;
+         padding: 0px;
+    }
+
+    .lab {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: 80px;
+        width: 100%;
+        background: #9b9898;
+        padding: 30px;
+        transition: 0.3s;
+    }
+
+    header #nav_check:checked~nav {
+        left: 0;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 985px){
+    .ge1{
+        width: 80%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .ge3{
+        width: 80%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+}
+
+
+
+@media only screen and (max-width: 650px){
+    .ge1{
+        width: 95%;
+        margin: auto;
+        grid-template-columns:1fr;
+
+    }
+    .ge3{
+        width: 95%;
+        margin: auto;
+        grid-template-columns:1fr;
+
+
+    }
+    .fl{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+    }
+}
+
+

@@ -1,0 +1,27 @@
+.backimg {
+    background-image: url('https://coderthemes.com/adminto/layouts/assets/images/bg-auth3.png');
+    background-size: cover;
+    background-position: center;
+    top: 0;
+}
+
+form {
+    background-color: white;
+    padding: 10%;
+    color: rgb(152 166 173);
+}
+
+.checkbox {
+    line-height: 50%;
+}
+
+.signupbutton {
+    border: 0%;
+    width: 100%;
+}
+
+@media (max-width: 789px) {
+    img {
+        width: 50%;
+    }
+}

@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-1{
+    width: 15%;
+    height: 30vh;
+    margin: 0px;
+    /* background-color: green; */
+}
+.navbar-1 h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    display: flex;
+}
+.navbar-1 ul {
+    margin-left: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+.navbar-1 ul li{
+    list-style-type: none;
+}
+.navbar-1 ul li a{
+
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+.navbar-1 ul li a:hover{
+    color: black;
+    font-size: 1rem;
+}
+.navbar-1 ul li a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+/* ---------------------------  NAVIGATION --------------------------------------- */
+.navigation{
+    width: 15%;
+    height: 10vh;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+.navigation h6{
+    margin-top: 10px;
+    margin-left: 35px;
+    padding: 1px;
+    color: rgb(29, 28, 28);
+}
+.navigation h6:hover{
+    font-size: 1rem;
+    color: rgb(80, 79, 79);
+}
+.navigation h4 {
+    margin-left: 30px;
+    padding: 5px;
+    color: rgb(29, 28, 28);
+}
+.navigation h4:hover{
+    font-size: 1rem;
+    color: rgb(80, 79, 79);
+}
+
+/* ------------------------- APPS -------------------------------------- */
+
+.apps{
+    width: 15%;
+    height: 50vh;
+    /* background-color: yellow; */
+}
+.apps h6{
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 3px;
+    font-size: 15px;
+    color: rgb(29, 28, 28);
+}
+.apps ul{
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.apps ul li{
+    list-style-type: none;
+    color: rgb(29, 28, 28);
+}
+.apps ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(29, 28, 28);
+}
+.apps ul li a:hover{
+    font-size: 1.2rem;
+    color: rgb(80, 79, 79);
+}
+
+/* --------------- custom  -------------------- */
+
+.custom{
+    width: 15%;
+    height: 130px;
+    margin-top: 10px;
+    /* background-color: pink; */
+}
+.custom h6{
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 3px;
+    font-size: 15px;
+    color: rgb(29, 28, 28);
+}
+.custom ul{
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.custom ul li{
+    list-style-type: none;
+    color: rgb(29, 28, 28);
+}
+.custom ul li a{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(29, 28, 28);
+}
+.custom ul li a:hover{
+    font-size: 1.2rem;
+    color: rgb(80, 79, 79);
+}
+
+/* ---------------------- DASHBOARD ------------------------------------- */
+
+.dashboard{
+    width: 85%;
+    height: 100vh;
+    margin-left: 210px;
+    margin-top: 0px;
+    position: absolute;
+    background-color: #282e38;
+    display: flex;
+}
+.dashboard h2{
+    margin-top: 0px;
+    padding: 10px;
+    color: #fff;
+}
+.searchbar input{
+    margin-top: 10px;
+    margin-left: 660px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 55px;
+    background-color: #2f3643;
+}
+.searchbar input[text]{
+    padding: 30px;
+    margin-left: 10px;
+}
+.searchbar a button{
+    border: none;
+    border-radius: 55px;
+    height: 40px;
+    width: 30px;
+    margin-top: 0px;
+    background-color: #2f3643;
+}
+.box-1{
+    width: 100%;
+    height: 35%;
+    margin-top: 70px;
+    padding: 30px;
+    display: flex;
+    /* background-color: lavender; */
+    justify-content: space-evenly;
+}
+.col-1 h4{
+    margin-left: 150px;
+    margin-top: 60px;
+    color: #fff;
+}
+.col-1 p{
+    margin-left: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.col-2 h4{
+    margin-top: 60px;
+    margin-left: 150px;
+    color: #fff;
+}
+.col-2 p{
+    margin-left: 70px;
+    font-weight: 600;
+    color: #fff;
+}
+.col-3 h4{
+    margin-left: 130px;
+    margin-top: 60px;
+    color: #fff;
+}
+.col-3 p{
+    margin-left: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.col-4 h4{
+    margin-left: 150px;
+    margin-top: 60px;
+    color: #fff;
+}
+.col-4 p{
+    margin-left: 60px;
+    font-weight: 600;
+    color: #fff;
+}

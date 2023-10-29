@@ -1,0 +1,88 @@
+<section
+  class="container-fluid bg-image h-150"
+  style="
+    background-image: url('https://media.istockphoto.com/id/1177844431/photo/scandinavian-style-modern-home-office-interior.jpg?s=2048x2048&w=is&k=20&c=V3iiXRA5E_-NEhAOh453U_U3Zqalxe-NxpCrl3q29ow=');
+  "
+>
+  <div class="text-center">
+    <img
+      class="img-fluid"
+      style="width: 15%"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSqsKO4ezdPMcSHOYxRCFmQZ6-Zb1GthL0ki2kMRpaqb9aps2-"
+      alt=""
+    />
+    <br />
+    <h3 class="mt-3" style="color: rgb(78, 75, 75)">
+      Responsive Admin Dashboard
+    </h3>
+  </div>
+
+  <div class="mask d-flex align-items-center h-100">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-10 col-md-6 col-lg-6 col-xl-6">
+          <div class="card" style="border-radius: 5px">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5 fw-bold">Sign In</h2>
+
+              <form>
+                <div class="form-outline mb-4 lead-text fw-bold">
+                  <label class="form-label" for="form3Example3cg"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    id="form3Example3cg"
+                    class="form-control form-control-lg"
+                    [(ngModel)]="email"
+                    [ngModelOptions]="{ standalone: true }"
+                  />
+                </div>
+
+                <div class="form-outline mb-4 lead-text fw-bold">
+                  <label class="form-label" for="form3Example4cg"
+                    >Password</label
+                  >
+
+                  <input
+                    type="password"
+                    placeholder="Enter your password"
+                    id="form3Example4cg"
+                    class="form-control form-control-lg"
+                    [(ngModel)]="password"
+                    [ngModelOptions]="{ standalone: true }"
+                  />
+                </div>
+
+                <input type="checkbox" id="myCheckbox" checked />
+                <label for="myCheckbox">Remember me</label>
+
+                <div class="d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary text-body fw-bold btn-lg"
+                    
+                  >
+                    <a
+                      href="dashboard"
+                      style="text-decoration: none; color: white"
+                      >Log In</a
+                    >
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-5 mb-0">
+    <h6 class="text-muted">Forgot Your Password?</h6>
+    <p class="text-center text-muted">
+      Don't have an account?
+      <a href="login" class="fw-bold text-body">Sign up</a>
+    </p>
+  </div>
+</section>

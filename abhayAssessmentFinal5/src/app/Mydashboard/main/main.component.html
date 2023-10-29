@@ -1,0 +1,126 @@
+<div class="all">
+<h1 style="margin-left: 20px; font-weight: bolder; font-size: 40px; margin-top: 20px;">Overview</h1> <br>
+<div class="row" style="margin-left: 20px; margin-right: 20px;">
+    <div class="col-4">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title><p>Document</p></mat-card-title>
+                <mat-card-subtitle> <h1>146.000</h1></mat-card-subtitle>
+                <i class="fa-solid fa-print"></i>
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+             <div class="ico"><i class="fa-solid fa-arrow-trend-up">17% - Since last week</i></div>
+            </mat-card-content>
+          </mat-card>
+    </div>
+    <div class="col-4">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title><p>Contact</p></mat-card-title>
+                <mat-card-subtitle><h1>1400</h1></mat-card-subtitle>
+                <i class="fa-solid fa-address-book"></i>
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="ico"><i class="fa-solid fa-arrow-trend-up">17% - Since last week</i></div>
+            </mat-card-content>
+          </mat-card>
+    </div>
+    <div class="col-4">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title><p>Email</p></mat-card-title>
+                <mat-card-subtitle><h1>150.700</h1></mat-card-subtitle>
+                <i class="fa-solid fa-envelope"></i>
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="ico"><i class="fa-solid fa-arrow-trend-up">17% - Since last week</i></div>
+            </mat-card-content>
+          </mat-card>
+    </div>
+</div>
+<br>
+<div class="row" style="margin-left: 20px; margin-right: 20px;">
+      <div class="col-6">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>Recent Workflow</mat-card-title>
+                <mat-card-subtitle><div class="ico"><i class="fa-solid fa-arrow-trend-up">17%</i></div></mat-card-subtitle>
+                <app-linechart></app-linechart>
+              </mat-card-title-group>
+            </mat-card-header>
+          </mat-card>
+      </div>
+      <div class="col-6">
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>Recent Marketing</mat-card-title>
+                <mat-card-subtitle><div class="ico"><i class="fa-solid fa-arrow-trend-up">17%</i></div></mat-card-subtitle>
+                <div id="chart">
+                  <apx-chart
+                    [series]="chartOptions.series!"
+                    [chart]="chartOptions.chart!"
+                    [dataLabels]="chartOptions.dataLabels!"
+                    [plotOptions]="chartOptions.plotOptions!"
+                    [xaxis]="chartOptions.xaxis!"
+                  ></apx-chart>
+                </div>
+              </mat-card-title-group>
+              </mat-card-header>
+              </mat-card>
+      </div>
+</div>
+<div class="row" style="margin-left: 20px; margin-right: 20px; margin-top: 15px;">
+  <div class="col-7">
+    <div class="card">
+      <div class="card-body">
+        <app-doublelines></app-doublelines>
+      </div>
+    </div>
+    </div>
+    <div class="col-5" >
+      <div class="card" style="padding-bottom: 34px;">
+        <div class="card-body">
+          <app-donut></app-donut>
+        </div>
+     </div>
+  </div>
+</div>
+<div class="row" style="margin-left: 20px; margin-right: 20px; margin-top: 15px;">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <app-linecolumn></app-linecolumn>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class="row" style="margin-left: 20px; margin-right: 20px; margin-top: 15px;">
+  <div class="col-5">
+    <div class="card">
+      <div class="card-body">
+        <app-radial></app-radial>
+      </div>
+    </div>
+</div>
+<div class="col-7">
+  <div class="card">
+    <div class="card-body">
+      <app-tree></app-tree>
+    </div>
+  </div>
+ </div>
+</div>
+
+</div>
+
+
+

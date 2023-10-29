@@ -1,0 +1,114 @@
+.main1{
+    text-align: center;
+    font-weight: bold;
+}
+.main12{
+    text-align: center;
+    font-weight: 300;
+    font-size: large;
+}
+.main123{
+    text-align: center;
+    font-weight: 300;
+    font-size: medium;
+    color: rgb(176, 176, 176);
+}
+.offsign{
+    color: aquamarine;
+}
+.nav-item a{
+    color: black;
+}
+.mainq{
+    color: white;
+}
+.copyright {
+    background: #1d1d1d;
+    padding: 15px 0; }
+    .copyright.copyright-4 {
+      background: #313945; }
+      .copyright.copyright-4 .cp-area p {
+        color: #72839a; }
+    .copyright .cp-area p {
+      font-size: 15px;
+      font-weight: 500;
+      color: #bdbdbd;
+      margin: 0; }
+    .copyright .social-area {
+      float: right; }
+      .copyright .social-area ul li {
+        display: inline-block; }
+        .copyright .social-area ul li a {
+          display: inline-block;
+         font-style: none;
+          text-align: center;
+        
+          color: #fff;
+          font-size: 15px;
+          margin-right: 11px; }
+          
+
+
+
+.containeq { 
+    
+    text-align: center; 
+  
+} 
+  
+
+.ui-widgets { 
+    position: relative; 
+    display: inline-block; 
+    width: 5rem; 
+    height: 5rem; 
+    border-radius: 9rem; 
+    margin:1.5rem; 
+    border: 0.5rem solid rgb(251, 152, 220); 
+    box-shadow: inset 0 0 7px grey; 
+    border-left-color: rgb(150, 89, 148); 
+     
+    border-right-color: rgb(150, 89, 148); 
+    border-bottom-color: white ; 
+    text-align: center; 
+    box-sizing: border-box; 
+} 
+  
+
+.ui-widgets:nth-child(2) { 
+    border-top-color:chartreuse ; 
+    border-right-color: white; 
+    border-left-color: palegreen; 
+    border-bottom-color: white; 
+} 
+  
+
+.ui-widgets .ui-values { 
+    top: 15px; 
+    position: absolute; 
+    left: 5px; 
+    right: 0; 
+    font-weight: 300; 
+    font-size: 1.2rem; 
+} 
+
+.ui-widgets .ui-labels { 
+    left: 0; 
+    bottom: -16px; 
+    text-shadow: 0 0 4px grey; 
+    color:black; 
+    position: absolute; 
+    width: 100%; 
+    font-size: 16px; 
+}
+.boxe{
+    background-color:#313945;
+}
+.table-dark {
+ 
+    --bs-table-bg: #313945;
+    --bs-table-border-color:  #313945;
+    --bs-table-striped-bg:  #313945;
+  
+    color: white;
+}

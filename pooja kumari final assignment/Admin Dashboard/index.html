@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsiive Admin Dashboard | CodingLab</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CDN Link -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bxl-c-plus-plus"></i>
+        <span class="logo_name">Adminto</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-box"></i>
+            <span class="links_name">Calender</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-list-ul"></i>
+            <span class="links_name">chat</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links_name">emails</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-coin-stack"></i>
+            <span class="links_name">Tasks</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-book-alt"></i>
+            <span class="links_name">Project</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-user"></i>
+            <span class="links_name">Contacts</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <nav>
+        <div class="sidebar-button">
+          <i class="bx bx-menu sidebarBtn"></i>
+          <span class="dashboard">Dashboard</span>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search..." />
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="profile-details">
+          <img src="data:image/jpeg;base64,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" alt="" />
+          <span class="admin_name">Nowak Helme</span>
+          <i class="bx bx-chevron-down"></i>
+        </div>
+      </nav>
+
+      <div class="home-content">
+        <div class="overview-boxes">
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Chadengle</div>
+              <div class="emails">coderthemes@gmail.com</div>
+              <div class="indicator">
+        
+                <span class="text">Admin</span>
+              </div>
+            </div>
+            <i class="bx bx-cart-alt cart"></i>
+          </div>
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Michael Zenaty</div>
+              <div class="emails">coderthemes@gmail.com</div>
+              <div class="indicator">
+        
+                <span class="text">Support Lead</span>
+              </div>
+            </div>
+            <i class="bx bxs-cart-add cart two"></i>
+          </div>
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Stillnotdavaid</div>
+              <div class="emails">coderthemes@gmail.com</div>
+              <div class="indicator">
+                <span class="text">Designer</span>
+              </div>
+            </div>
+            <i class="bx bx-cart cart three"></i>
+          </div>
+          <div class="box">
+            <div class="right-side">
+              <div class="box-topic">Tomaslau</div>
+              <div class="emails">coderthemes@gmail.com</div>
+              <div class="indicator">
+      
+                <span class="text">Developer</span>
+              </div>
+            </div>
+            <i class="bx bxs-cart-download cart four"></i>
+          </div>
+        </div>
+
+        <div class="sales-boxes">
+          <div class="Latest Project box">
+            <div class="title">Latest Project</div>
+            <div class="sales-details">
+              <ul class="details">
+                <li class="topic">#</li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+              </ul>
+              <ul class="details">
+                <li class="topic">Project Name</li>
+                <li><a href="#">Alex Doe v1</a></li>
+                <li><a href="#">David MartbV2</a></li>
+                <li><a href="#">Roe Parter</a></li>
+                <li><a href="#">Diana Penty</a></li>
+                <li><a href="#">Martin Paw</a></li>
+                <li><a href="#">Doe Alex</a></li>
+              
+              </ul>
+              <br>
+              <ul class="details">
+                <li class="topic">Start Date</li>
+                <li><a href="#">01/01/2017</a></li>
+                <li><a href="#">01/01/2017</a></li>
+                <li><a href="#">01/01/2017</a></li>
+                <li><a href="#">01/01/2017</a></li>
+                <li><a href="#">01/01/2017</a></li>
+                <li><a href="#">01/01/2017</a></li>
+              </ul>
+              <br>
+
+              <ul class="details">
+                <li class="topic">Due Date</li>
+                <li><a href="#">26/04/2017</a></li>
+                <li><a href="#">26/04/2017</a></li>
+                <li><a href="#">26/04/2017</a></li>
+                <li><a href="#">26/04/2017</a></li>
+                <li><a href="#">26/04/2017</a></li>
+                <li><a href="#">26/04/2017</a></li>
+              </ul>
+              <br>
+
+              <ul class="details">
+                <li class="topic">Status</li>
+                <li><a href="#">resoled</a></li>
+                <li><a href="#">resoled</a></li>
+                <li><a href="#">resoled</a></li>
+                <li><a href="#">resoled</a></li>
+                <li><a href="#">resoled</a></li>
+                <li><a href="#">resoled</a></li>
+              </ul>
+              <br>
+
+              <ul class="details">
+                <li class="topic">Assign</li>
+                <li><a href="#">Codertheme</a></li>
+                <li><a href="#">adimito</a></li>
+                <li><a href="#">codertheme</a></li>
+                <li><a href="#">adminto admin</a></li>
+                <li><a href="#">codertheme</a></li>
+                <li><a href="#">adminto admin</a></li>
+
+
+            </div>
+            <div class="button">
+              <a href="#">See All</a>
+            </div>
+          </div>
+          <div class="top-sales box">
+            <div class="title">inbox</div>
+            <ul class="Inbox">
+              <li>
+                <a href="#">
+                  <img src="images/sunglasses.jpg" alt="" />
+                  <span class="product">\Chadengle</span>
+
+                </a>
+                <span class="product">13:40</span>
+
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/jeans.jpg" alt="" />
+                  <span class="product">\Tomasslau</span>
+
+                </a>
+                <span class="product">13:40</span>
+
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/nike-min.jpg" alt="" />
+                  <span class="product">Stillnoteid</span>
+                </a>
+                <span class="product">13:40</span>
+
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/scarves.jpg" alt="" />
+                  <span class="product">karafire</span>
+                </a>
+                <span class="product">13:40</span>
+
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/blueBag.jpg" alt="" />
+                  <span class="product">Shahedk</span>
+                </a>
+                <span class="product">13:40</span>
+
+              <li>
+      
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".sidebarBtn");
+      sidebarBtn.onclick = function () {
+        sidebar.classList.toggle("active");
+        if (sidebar.classList.contains("active")) {
+          sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+        } else sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      };
+    </script>
+  </body>
+</html>

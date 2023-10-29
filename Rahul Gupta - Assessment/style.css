@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.page1{
+    display: flex;
+}
+
+.sidebar{
+    width: 220px;
+    height: 100vh;
+    display: inline block;
+}
+
+.sidebar p{
+    opacity: .5;
+}
+
+#profile{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#profile img{
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.sidebar h3{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.sidebar h4{
+    padding-bottom: 8px;
+}
+
+.menu p{
+    padding-bottom: 23px;
+    padding-left: 30px;
+}
+
+#cutom{
+    font-weight: bold;
+    font-size: 13px;
+    padding: 30px 10px 30px ;
+}
+
+.dashboard{
+    height: 100%;
+    width: 100%;
+    background-color:#282E38;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.navbar h3{
+    padding-right: 800px;
+    margin-top: 5px;
+}
+
+.navbar input{
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    background:#313844;
+    padding: 10px 18px;
+    border-radius: 20px;
+}
+
+#icon{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.navbar p{
+    margin-top: 10px;
+    padding: 0 20px 0 10px;
+}
+
+.profile2{
+    width: 30px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.profile2 img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+
+.divs{
+    display: flex;
+}
+
+.four{
+    background-color:#313844; 
+    height:200px;
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.four h3{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.gg{
+    padding-top: 30px;
+    float: right;
+    padding-right: 35px;
+}
+
+.gg h3{
+    font-size: 35px;
+    font-weight: 100;
+    padding-bottom: 8px;
+}
+
+.three{
+    background-color:#313844; 
+    margin-top: 20px;
+    height:380px;
+    width: 350px;
+    margin-left: 20px;
+    padding-right: 420px;
+    border-radius: 5px;   
+}
+
+.three h3{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.fourt{
+    display: flex;
+    background-color:#313844; 
+    height:100px;
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-right: 310px;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+
+#profile1{
+    width: 50px;
+    height: 50px
+    margin-bottom: 15px;
+}
+
+#profile1 img{
+    width: 65px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.fourt h3{
+    padding-left:80px ;
+    padding-top: 30px;
+    font-weight: 100;
+}
+
+.fourt p{
+    opacity: .6;
+    font-size: 12px;
+    padding-top: 60px;
+}

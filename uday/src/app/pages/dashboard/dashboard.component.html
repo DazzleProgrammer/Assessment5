@@ -1,0 +1,62 @@
+<div class="row container-fluid">
+  <div class="col-md-2">
+    <div style="text-align: center">
+      <img
+        style="border-radius: 50%; width: 20%"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7a6sHFiiyfgCic1xCF9uizbzrxn5r2imWQ&usqp=CAU"
+        alt=""
+      />
+      <h6>Noak Helme</h6>
+      <p>Admin head</p>
+    </div>
+    <h6>Navigation</h6>
+    <p>Dashboard</p>
+    <h6>Apps</h6>
+    <div class="mt-3" style="line-height: 8px">
+      <ul class="p-0">
+        Calender
+      </ul>
+      <ul class="p-0">
+        Chat
+      </ul>
+      <ul class="p-0">
+        Email
+      </ul>
+      <ul class="p-0">
+        Tasks
+      </ul>
+      <ul class="p-0">
+        Projects
+      </ul>
+      <ul class="p-0">
+        Contacts
+      </ul>
+    </div>
+    <h6>Customs</h6>
+    <div class="mt-3" style="line-height: 8px">
+      <ul class="p-0">
+        Auth Pages
+      </ul>
+      <ul class="p-0">
+        Extra Pages &nbsp;<i
+          (click)="open()"
+          class="bi bi-arrow-down-short"
+        ></i>
+      </ul>
+      <div [ngStyle]="styles" class="panel">
+        <ul class="p-0" style="list-style-type: none; line-height: 23px">
+          <li>Starter</li>
+          <li (click)="price()">Pricing</li>
+          <li>Timeline</li>
+          <li>Invoice</li>
+          <li>FAQs</li>
+          <li>Gallery</li>
+          <li>Error 404</li>
+          <li>Error 500</li>
+          <li>Maintainence</li>
+          <li>Comming Soon</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

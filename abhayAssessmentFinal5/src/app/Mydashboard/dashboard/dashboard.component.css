@@ -1,0 +1,45 @@
+*{
+  font-style:italic;
+}
+.example-container {
+    width: 99%;
+    height: 690px;
+    margin: 10px;
+    border: 1px solid #555;
+  }
+  h3{
+    border: 1px solid skyblue;
+    border-radius: 8px;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  h3:hover{
+    background-color: white;
+    color: black;
+  }
+  .side{
+    background-image: url(https://img.freepik.com/free-photo/abstract-dark-blurred-background-smooth-gradient-texture-color-shiny-bright-website-pattern-banner-header-sidebar-graphic-art-image_1258-85526.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  li{
+    cursor: pointer;
+    opacity: 100%;
+  }
+  p{
+    opacity: 50%;
+  }
+ .fa-solid{
+  position: relative;
+  right: 20px;
+  top: 20px;
+ }

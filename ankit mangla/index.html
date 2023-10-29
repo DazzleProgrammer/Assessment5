@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Adminto </title>
+    <!--<base href="/">-->
+    <base href=".">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+
+</head>
+
+<body data-layout-color="dark" class="" data-layout-size="fluid" data-leftbar-position="fixed" data-leftbar-color="light" data-leftbar-size="default" data-topbar-color="dark" data-sidebar-user="true" data-layout-mode="vertical">
+
+    <div id="wrapper">
+        <app-topbar layouttype="vertical">
+            <div class="navbar-custom">
+                <div>
+                    <ul class="list-unstyled topnav-menu float-end mb-0">
+                        <li ngbdropdown="" placement="bottom-start" class="d-none d-lg-block dropdown">
+                            <form novalidate="" class="app-search ng-untouched ng-pristine ng-valid">
+                                <div class="app-search-box">
+                                    <div class="input-group"><input type="text" placeholder="Search..." id="search-dropdown" ngbdropdowntoggle="" class="dropdown-toggle form-control" aria-expanded="false"><button type="submit" class="btn input-group-text"><i   class="fa fa-search"></i></button></div>
+                                    <div id="search-dropdown" ngbdropdownmenu="" class="dropdown-lg dropdown-menu" data-popper="bottom-start">
+
+                                        <!---->
+                                    </div>
+                                </div>
+                </div>
+                </form>
+                </li>
+                <li ngbdropdown="" autoclose="outside" placement="bottom-end" class="d-inline-block d-lg-none dropdown"><a href="javascript:void(0);" role="button" ngbdropdowntoggle="" class="dropdown-toggle nav-link arrow-none waves-effect waves-light" aria-expanded="false"><i   class="fe-search noti-icon"></i></a>
+                    <div ngbdropdownmenu="" class="dropdown-lg dropdown-menu-end p-0 dropdown-menu" data-popper="bottom-end">
+                        <form novalidate="" ngbdropdownitem="" class="dropdown-item p-3 ng-untouched ng-pristine ng-valid"><input type="text" placeholder="Search ..." aria-label="Recipient&#39;s username" class="form-control"></form>
+                    </div>
+                </li>
+                <li ngbdropdown="" class="notification-list topbar-dropdown dropdown"><a href="javascript:void(0)" role="button" ngbdropdowntoggle="" class="dropdown-toggle nav-link waves-effect waves-light" aria-expanded="false"><i   class="fa fa-bell noti-icon"></i><span   class="badge bg-danger rounded-circle noti-icon-badge">9</span></a>
+                    <div ngbdropdownmenu="" class="dropdown-menu-end dropdown-lg dropdown-menu" data-popper="bottom-start">
+                        <div ngbdropdownitem="" class="dropdown-item noti-title">
+                            <h5 class="m-0"><span class="float-end"><a   class="text-dark"><small  >Clear All</small></a></span>Notification
+                            </h5>
+                        </div>
+                        <ngx-simplebar data-simplebar="init" class="noti-scroll">
+                            <div class="simplebar-wrapper" style="margin: 0px;">
+                                <div class="simplebar-height-auto-observer-wrapper">
+                                    <div class="simplebar-height-auto-observer"></div>
+                                </div>
+                                <div class="simplebar-mask">
+                                    <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                        <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden;">
+                                            <div class="simplebar-content" style="padding: 0px;">
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item notify-item active">
+                                                    <div class="notify-icon"><img alt="" class="img-fluid rounded-circle" src="img/user-1.jpg"></div>
+                                                    <!---->
+                                                    <!---->
+                                                    <!---->
+                                                    <p class="notify-details">Cristina Pride</p>
+                                                    <p class="text-muted mb-0 user-msg"><small>Hi, How are you? What about our next meeting</small></p>
+                                                    <!---->
+                                                    <!---->
+                                                </a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item notify-item">
+                                                    <!---->
+                                                    <div class="bg-primary notify-icon"><i class="mdi mdi-comment-account-outline"></i></div>
+                                                    <!---->
+                                                    <p class="notify-details">Caleb Flakelar commented on Admin <small class="text-muted">1 min ago</small></p>
+                                                    <!---->
+                                                    <!---->
+                                                </a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item notify-item">
+                                                    <div class="notify-icon"><img alt="" class="img-fluid rounded-circle" src="img/user-4.jpg"></div>
+                                                    <!---->
+                                                    <!---->
+                                                    <!---->
+                                                    <p class="notify-details">Karen Robinson</p>
+                                                    <p class="text-muted mb-0 user-msg"><small>Wow ! this admin looks good and awesome design</small></p>
+                                                    <!---->
+                                                    <!---->
+                                                </a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item notify-item">
+                                                    <!---->
+                                                    <div class="bg-warning notify-icon"><i class="mdi mdi-account-plus"></i></div>
+                                                    <!---->
+                                                    <p class="notify-details">New user registered. <small class="text-muted">5 hours ago</small></p>
+                                                    <!---->
+                                                    <!---->
+                                                </a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item notify-item">
+                                                    <!---->
+                                                    <div class="bg-info notify-icon"><i class="mdi mdi-comment-account-outline"></i></div>
+                                                    <!---->
+                                                    <p class="notify-details">Caleb Flakelar commented on Admin <small class="text-muted">1 min ago</small></p>
+                                                    <!---->
+                                                    <!---->
+                                                </a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item notify-item">
+                                                    <!---->
+                                                    <div class="bg-secondary notify-icon"><i class="mdi mdi-heart"></i></div>
+                                                    <!---->
+                                                    <p class="notify-details">Carlos Crouch liked Admin <small class="text-muted">13 days ago</small></p>
+                                                    <!---->
+                                                    <!---->
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="simplebar-placeholder" style="width: 0px; height: 0px;"></div>
+                            </div>
+                            <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                                <div class="simplebar-scrollbar" style="width: 0px; display: none;"></div>
+                            </div>
+                            <div class="simplebar-track simplebar-vertical" style="visibility: hidden;">
+                                <div class="simplebar-scrollbar" style="height: 0px; display: none;"></div>
+                            </div>
+                        </ngx-simplebar><a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all"> View all <i   class="fe-arrow-right"></i></a></div>
+                </li>
+                <li ngbdropdown="" class="notification-list topbar-dropdown dropdown">
+                    <a href="javascript:void(0)" role="button" ngbdropdowntoggle="" class="dropdown-toggle nav-link nav-user me-0 waves-effect waves-light" aria-expanded="false"><img alt="user-image" class="rounded-circle" src="img/user-1.jpg"><span class="pro-user-name ms-1"> Nowak <i   class="mdi mdi-chevron-down"></i></span></a>
+                    <div ngbdropdownmenu="" class="dropdown-menu-end profile-dropdown dropdown-menu" data-popper="bottom-start" style="">
+                        <div ngbdropdownitem="" class="dropdown-item dropdown-header noti-title">
+                            <h6 class="text-overflow m-0">Welcome !</h6>
+                        </div>
+                        <!----><a ngbdropdownitem="" class="dropdown-item notify-item"><i   class="fe-user"></i><span   style="cursor: pointer;" tabindex="0">My Account</span></a>
+                        <!---->
+                        <!----><a ngbdropdownitem="" class="dropdown-item notify-item"><i   class="fe-lock"></i><span   style="cursor: pointer;" tabindex="0">Lock Screen</span></a>
+                        <!---->
+                        <div class="dropdown-divider"></div>
+                        <!----><a ngbdropdownitem="" class="dropdown-item notify-item"><i   class="fe-log-out"></i><span   style="cursor: pointer;" tabindex="0">Logout</span></a>
+                        <!---->
+                        <!---->
+                    </div>
+                </li>
+                <li class="dropdown notification-list"><a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect waves-light"><i   class="fe-settings noti-icon"></i></a></li>
+                </ul>
+                <div class="logo-box"><a routerlink="/" class="logo logo-light text-center"><span   class="logo-sm"><img   src="img/logo-sm.png" alt="" height="22"></span><span   class="logo-lg"><img   src="img/logo-light.png" alt="" height="16"></span></a>
+                    <a routerlink="/" class="logo logo-dark text-center"><span   class="logo-sm"><img   src="img/logo-sm.png" alt="" height="22"></span><span   class="logo-lg"><img   src="img/logo-dark.png" alt="" height="16"></span></a>
+                </div>
+                <ul class="list-unstyled topnav-menu topnav-menu-left mb-0">
+                    <li><button class="button-menu-mobile disable-btn waves-effect open-left"><i   class="fe-menu"></i></button></li>
+                    <!---->
+                    <!---->
+                    <li>
+                        <h4 class="page-title-main">Dashboard</h4>
+                    </li>
+                    <!---->
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+    </div>
+    </app-topbar>
+    <app-left-sidebar>
+        <div class="left-side-menu">
+            <ngx-simplebar data-simplebar="init" class="h-100 simplebar-scrollable-y">
+                <div class="simplebar-wrapper" style="margin: 0px;">
+                    <div class="simplebar-height-auto-observer-wrapper">
+                        <div class="simplebar-height-auto-observer"></div>
+                    </div>
+                    <div class="simplebar-mask">
+                        <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                            <div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll;">
+                                <div class="simplebar-content" style="padding: 0px;">
+                                    <div class="user-box text-center"><img alt="user-img" title="Mat Helme" class="rounded-circle img-thumbnail avatar-md" src="img/user-1.jpg">
+                                        <div ngbdropdown="" class="dropdown"><a href="javascript: void(0);" id="profileMenu" ngbdropdowntoggle="" class="dropdown-toggle user-name h5 mt-2 mb-1 d-block" aria-expanded="false">Nowak Helme</a>
+                                            <div ngbdropdownmenu="" aria-labelledby="profileMenu" class="user-pro-dropdown dropdown-menu" data-popper="bottom-start"><a ngbdropdownitem="" class="dropdown-item notify-item"><i     class="fa fa-user me-1"></i><span    >My Account</span></a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item notify-item"><i     class="fa fa-settings me-1"></i><span    >Settings</span></a>
+                                                <a ngbdropdownitem="" class="dropdown-item notify-item"><i     class="fe-lock me-1"></i><span    >Lock Screen</span></a>
+                                                <a ngbdropdownitem="" class="dropdown-item notify-item"><i     class="fe-log-out me-1"></i><span    >Logout</span></a>
+                                            </div>
+                                        </div>
+                                        <p class="text-muted left-user-info">Admin Head</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted left-user-info"><i     class="mdi mdi-cog"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)"><i     class="mdi mdi-power"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div id="sidebar-menu">
+                                        <ul id="side-menu">
+                                            <li class="menu-title"> Navigation </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li class="menuitem-active"><a class="side-nav-link-ref active" data-menu-key="dashboard"><i     class="mdi mdi-view-dashboard-outline"></i><!----><span     class="badge bg-success float-end rounded-pill">9+</span><!----><span    >Dashboard</span></a>
+                                                <!---->
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li class="menu-title mt-2"> Apps </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a class="side-nav-link-ref" data-menu-key="apps-calendar" href><i     class="mdi mdi-calendar-blank-outline"></i><!----><!----><span    >Calendar</span></a>
+                                                <!---->
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a class="side-nav-link-ref" data-menu-key="apps-chat"><i     class="mdi mdi-forum-outline"></i><!----><!----><span    >Chat</span></a>
+                                                <!---->
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="apps-email"><i     class="mdi mdi-email-outline"></i><!----><!----><span    >Email</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse" style="">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="email-inbox" href>
+                                                                <!---->
+                                                                <!----><span>Inbox</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="apps-tasks"><i     class="mdi mdi-clipboard-outline"></i><!----><!----><span    >Tasks</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse" style="">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="task-kanban" href>
+                                                                <!---->
+                                                                <!----><span>Kanban Board</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="task-details" href>
+                                                                <!---->
+                                                                <!----><span>Details</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a class="side-nav-link-ref" data-menu-key="apps-projects" href><i     class="mdi mdi-briefcase-variant-outline"></i><!----><!----><span    >Projects</span></a>
+                                                <!---->
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li class=""><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="apps-contacts"><i     class="mdi mdi-book-open-page-variant-outline"></i><!----><!----><span    >Contacts</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse" style="">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="contacts-list" href>
+                                                                <!---->
+                                                                <!----><span>Members List</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li class="">
+                                                            <a class="side-nav-link-ref" data-menu-key="contacts-profile" href>
+                                                                <!---->
+                                                                <!----><span>Profile</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li class="menu-title mt-2"> Custom </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li class=""><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="extra-pages"><i     class="mdi mdi-file-multiple-outline"></i><!----><!----><span    >Extra Pages</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse" style="">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-starter" href>
+                                                                <!---->
+                                                                <!----><span>Starter</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li class="">
+                                                            <a class="side-nav-link-ref" data-menu-key="page-pricing" href>
+                                                                <!---->
+                                                                <!----><span>Pricing</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-timeline" href>
+                                                                <!---->
+                                                                <!----><span>Timeline</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-invoice" href>
+                                                                <!---->
+                                                                <!----><span>Invoice</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-faq" href>
+                                                                <!---->
+                                                                <!----><span>FAQs</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-gallery">
+                                                                <!---->
+                                                                <!----><span>Gallery</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-error-404" href>
+                                                                <!---->
+                                                                <!----><span>Error - 404</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-error-500" href>
+                                                                <!---->
+                                                                <!----><span>Error - 500</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-maintenance" href>
+                                                                <!---->
+                                                                <!----><span>Maintenance</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="page-coming-soon" href>
+                                                                <!---->
+                                                                <!----><span>Coming Soon</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li class="menu-title mt-2"> Components </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="base-ui"><i     class="mdi mdi-briefcase-outline"></i><!----><!----><span    >Base UI</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-buttons" href>
+                                                                <!---->
+                                                                <!----><span>Buttons</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-cards" href>
+                                                                <!---->
+                                                                <!----><span>Cards</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-avatars" href>
+                                                                <!---->
+                                                                <!----><span>Avatars</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-tabs-accordions" href>
+                                                                <!---->
+                                                                <!----><span>Tabs &amp; Accordions</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-modals" href>
+                                                                <!---->
+                                                                <!----><span>Modals</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-progress" href>
+                                                                <!---->
+                                                                <!----><span>Progress</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-notifications" href>
+                                                                <!---->
+                                                                <!----><span>Notifications</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-placeholders">
+                                                                <!---->
+                                                                <!----><span>Placeholders</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-spinners">
+                                                                <!---->
+                                                                <!----><span>Spinners</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-images">
+                                                                <!---->
+                                                                <!----><span>Images</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-carousel">
+                                                                <!---->
+                                                                <!----><span>Carousel</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-embedvideo">
+                                                                <!---->
+                                                                <!----><span>Embed Video</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-dropdown">
+                                                                <!---->
+                                                                <!----><span>Dropdowns</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-popovers-tooltips">
+                                                                <!---->
+                                                                <!----><span>Tooltips &amp; Popovers</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-general">
+                                                                <!---->
+                                                                <!----><span>General UI</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-typography">
+                                                                <!---->
+                                                                <!----><span>Typography</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="base-ui-grid">
+                                                                <!---->
+                                                                <!----><span>Grid</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a class="side-nav-link-ref" data-menu-key="widgets"><i     class="mdi mdi-gift-outline"></i><!----><!----><span    >Widgets</span></a>
+                                                <!---->
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="extended-ui"><i     class="mdi mdi-layers-outline"></i><!----><span     class="badge bg-info float-end">Hot</span><!----><span    >Extended UI</span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="extended-ui-rangesliders">
+                                                                <!---->
+                                                                <!----><span>Range Sliders</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="extended-ui-sweet-alert">
+                                                                <!---->
+                                                                <!----><span>Sweet Alert</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="extended-ui-draggable-cards">
+                                                                <!---->
+                                                                <!----><span>Draggable Cards</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="extended-ui-tour">
+                                                                <!---->
+                                                                <!----><span>Tour Page</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="extended-ui-tree-view">
+                                                                <!---->
+                                                                <!----><span>Tree View</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="icons"><i     class="mdi mdi-shield-outline"></i><!----><!----><span    >Icons</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="icon-feather">
+                                                                <!---->
+                                                                <!----><span>Feather Icons</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="icon-mdiicons">
+                                                                <!---->
+                                                                <!----><span>Material Design Icons</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="icon-dripicons">
+                                                                <!---->
+                                                                <!----><span>Dripicons</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="icon-font-awesome">
+                                                                <!---->
+                                                                <!----><span>Font Awesome 5</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="icon-themify">
+                                                                <!---->
+                                                                <!----><span>Themify</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="forms"><i     class="mdi mdi-texture"></i><!----><!----><span    >Forms</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="form-basic">
+                                                                <!---->
+                                                                <!----><span>General Elements</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="form-advanced">
+                                                                <!---->
+                                                                <!----><span>Form Advanced</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="form-validation">
+                                                                <!---->
+                                                                <!----><span>Validation</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="form-wizard">
+                                                                <!---->
+                                                                <!----><span>Wizard</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="form-upload">
+                                                                <!---->
+                                                                <!----><span>File Uploads</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="form-editors">
+                                                                <!---->
+                                                                <!----><span>Editors</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="tables"><i     class="mdi mdi-table"></i><!----><!----><span    >Tables</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="table-basic">
+                                                                <!---->
+                                                                <!----><span>Basic Tables</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="table-advanced">
+                                                                <!---->
+                                                                <!----><span>Advanced Tables</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="charts"><i     class="mdi mdi-chart-donut-variant"></i><!----><!----><span    >Charts</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="chart-apex">
+                                                                <!---->
+                                                                <!----><span>Apex Charts</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="chart-chartjs">
+                                                                <!---->
+                                                                <!----><span>Chartjs</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="maps"><i     class="mdi mdi-map-outline"></i><!----><!----><span    >Maps</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="maps-googlemaps">
+                                                                <!---->
+                                                                <!----><span>Google Maps</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="maps-vectormaps">
+                                                                <!---->
+                                                                <!----><span>Vector Maps</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <li><a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="menu-levels"><i     class="mdi mdi-share-variant"></i><!----><!----><span    >Menu Levels</span><span     class="menu-arrow"></span><!----></a>
+                                                <div class="collapse">
+                                                    <ul class="nav-second-level">
+                                                        <li>
+                                                            <a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="menu-levels-1-1">
+                                                                <!---->
+                                                                <!----><span>Level 1.1</span><span class="menu-arrow"></span>
+                                                                <!---->
+                                                            </a>
+                                                            <div class="collapse">
+                                                                <ul class="nav-second-level">
+                                                                    <li>
+                                                                        <a href="javascript: void(0)" class="side-nav-link-ref" aria-expanded="false" data-menu-key="menu-levels-2-1">
+                                                                            <!---->
+                                                                            <!----><span>Level 2.1</span><span class="menu-arrow"></span>
+                                                                            <!---->
+                                                                        </a>
+                                                                        <div class="collapse">
+                                                                            <ul class="nav-second-level">
+                                                                                <!---->
+                                                                                <li>
+                                                                                    <a class="side-nav-link-ref" data-menu-key="menu-levels-3-1">
+                                                                                        <!---->
+                                                                                        <!----><span>Level 3.1</span></a>
+                                                                                    <!---->
+                                                                                </li>
+                                                                                <!---->
+                                                                                <!---->
+                                                                                <!---->
+                                                                                <!---->
+                                                                                <!---->
+                                                                                <li>
+                                                                                    <a class="side-nav-link-ref" data-menu-key="menu-levels-3-2">
+                                                                                        <!---->
+                                                                                        <!----><span>Level 3.2</span></a>
+                                                                                    <!---->
+                                                                                </li>
+                                                                                <!---->
+                                                                                <!---->
+                                                                                <!---->
+                                                                                <!---->
+                                                                                <!---->
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <li>
+                                                                        <a class="side-nav-link-ref" data-menu-key="menu-levels-2-2">
+                                                                            <!---->
+                                                                            <!----><span>Level 2.2</span></a>
+                                                                        <!---->
+                                                                    </li>
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <!---->
+                                                                    <!---->
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <li>
+                                                            <a class="side-nav-link-ref" data-menu-key="menu-levels-1-2">
+                                                                <!---->
+                                                                <!----><span>Level 1.2</span></a>
+                                                            <!---->
+                                                        </li>
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                        <!---->
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                        </ul>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simplebar-placeholder" style="width: 240px; height: 1176px;"></div>
+                </div>
+                <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                    <div class="simplebar-scrollbar" style="width: 0px; display: none;"></div>
+                </div>
+                <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                    <div class="simplebar-scrollbar" style="height: 336px; transform: translate3d(0px, 0px, 0px); display: block;"></div>
+                </div>
+            </ngx-simplebar>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+    </app-left-sidebar>
+    <div class="content-page">
+        <div class="content">
+            <div class="container-fluid">
+                <router-outlet></router-outlet>
+                <app-dashboard-1>
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6">
+                            <app-statistics-widget1 title="Total Revenue" subtitle="Revenue today" color="#f05050">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0 mb-4">Total Revenue</h4>
+                                        <div class="widget-chart-1">
+                                            <div dir="ltr" class="widget-chart-box-1 float-start">
+                                                <apx-chart class="apex-charts mt-0">
+                                                    <div style="min-height: 78px;">
+                                                        <div id="apexchartsull1zy6vg" class="apexcharts-canvas apexchartsull1zy6vg apexcharts-theme-light" style="width: 77px; height: 78px;"><svg id="SvgjsSvg1892" width="77" height="78" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS"
+                                                                transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1894" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs1893"><clippath id="gridRectMaskull1zy6vg"><rect id="SvgjsRect1896" width="83" height="79" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath><clippath id="forecastMaskull1zy6vg"></clippath><clippath id="nonForecastMaskull1zy6vg"></clippath><clippath id="gridRectMarkerMaskull1zy6vg"><rect id="SvgjsRect1897" width="81" height="81" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath></defs><g id="SvgjsG1898" class="apexcharts-radialbar"><g id="SvgjsG1899"><g id="SvgjsG1900" class="apexcharts-tracks"><g id="SvgjsG1901" class="apexcharts-radialbar-track apexcharts-track" rel="1"><path id="apexcharts-radialbarTrack-0" d="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 38.49467355313299 7.981707781893341" fill="none" fill-opacity="1" stroke="rgba(0,0,0,0.85)" stroke-opacity="0.3" stroke-linecap="butt" stroke-width="4.554268292682927" stroke-dasharray="0" class="apexcharts-radialbar-area" data:pathOrig="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 38.49467355313299 7.981707781893341"></path></g></g><g id="SvgjsG1903"><g id="SvgjsG1907" class="apexcharts-series apexcharts-radial-series" seriesName="seriesx1" rel="1" data:realIndex="0"><path id="SvgjsPath1908" d="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 23.704438113823677 65.19190020873583" fill="none" fill-opacity="0.85" stroke="rgba(240,80,80,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="4.695121951219512" stroke-dasharray="0" class="apexcharts-radialbar-area apexcharts-radialbar-slice-0" data:angle="209" data:value="58" index="0" j="0" data:pathOrig="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 23.704438113823677 65.19190020873583"></path></g><circle id="SvgjsCircle1904" r="28.24115853658537" cx="38.5" cy="38.5" class="apexcharts-radialbar-hollow" fill="transparent"></circle><g id="SvgjsG1905" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)" style="opacity: 1;"><text id="SvgjsText1906" font-family="Helvetica, Arial, sans-serif" x="38.5" y="43.5" text-anchor="middle" dominant-baseline="auto" font-size="14px" font-weight="700" fill="#f05050" class="apexcharts-text apexcharts-datalabel-value" style="font-family: Helvetica, Arial, sans-serif;">58</text></g></g></g></g><line id="SvgjsLine1909" x1="0" y1="0" x2="77" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1910" x1="0" y1="0" x2="77" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line></g><g id="SvgjsG1895" class="apexcharts-annotations"></g></svg>
+                                                            <div class="apexcharts-legend"></div>
+                                                        </div>
+                                                    </div>
+                                                </apx-chart>
+                                            </div>
+                                            <div class="widget-detail-1 text-end">
+                                                <h2 class="fw-normal pt-2 mb-1"> 256 </h2>
+                                                <p class="text-muted mb-1">Revenue today</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-statistics-widget1>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <app-statistics-widget2 title="Sales Analytics" subtitle="Revenue today" trendicon="up" variant="success">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0 mb-3">Sales Analytics</h4>
+                                        <div class="widget-box-2">
+                                            <div class="widget-detail-2 text-end"><span class="badge bg-success float-start mt-3 rounded-pill">32% <i   class="mdi mdi-trending-up"></i></span>
+                                                <h2 class="fw-normal mb-1"> 8451 </h2>
+                                                <p class="text-muted mb-3">Revenue today</p>
+                                            </div>
+                                            <ngb-progressbar class="progress progress-bar-alt-success progress-sm">
+                                                <div role="progressbar" aria-valuemin="0" class="bg-success progress-bar" aria-valuenow="77" aria-valuemax="100" style="width: 77%;">
+                                                    <!---->
+                                                </div>
+                                            </ngb-progressbar>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-statistics-widget2>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <app-statistics-widget1 title="Statistics" subtitle="Revenue today" color="#ffbd4a">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0 mb-4">Statistics</h4>
+                                        <div class="widget-chart-1">
+                                            <div dir="ltr" class="widget-chart-box-1 float-start">
+                                                <apx-chart class="apex-charts mt-0">
+                                                    <div style="min-height: 78px;">
+                                                        <div id="apexchartstna862rb" class="apexcharts-canvas apexchartstna862rb apexcharts-theme-light" style="width: 77px; height: 78px;"><svg id="SvgjsSvg1930" width="77" height="78" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS"
+                                                                transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1932" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs1931"><clippath id="gridRectMasktna862rb"><rect id="SvgjsRect1934" width="83" height="79" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath><clippath id="forecastMasktna862rb"></clippath><clippath id="nonForecastMasktna862rb"></clippath><clippath id="gridRectMarkerMasktna862rb"><rect id="SvgjsRect1935" width="81" height="81" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath></defs><g id="SvgjsG1936" class="apexcharts-radialbar"><g id="SvgjsG1937"><g id="SvgjsG1938" class="apexcharts-tracks"><g id="SvgjsG1939" class="apexcharts-radialbar-track apexcharts-track" rel="1"><path id="apexcharts-radialbarTrack-0" d="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 38.49467355313299 7.981707781893341" fill="none" fill-opacity="1" stroke="rgba(0,0,0,0.85)" stroke-opacity="0.3" stroke-linecap="butt" stroke-width="4.554268292682927" stroke-dasharray="0" class="apexcharts-radialbar-area" data:pathOrig="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 38.49467355313299 7.981707781893341"></path></g></g><g id="SvgjsG1941"><g id="SvgjsG1945" class="apexcharts-series apexcharts-radial-series" seriesName="seriesx1" rel="1" data:realIndex="0"><path id="SvgjsPath1946" d="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 9.475378877699733 29.06932892166699" fill="none" fill-opacity="0.85" stroke="rgba(255,189,74,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="4.695121951219512" stroke-dasharray="0" class="apexcharts-radialbar-area apexcharts-radialbar-slice-0" data:angle="288" data:value="80" index="0" j="0" data:pathOrig="M 38.5 7.981707317073166 A 30.518292682926834 30.518292682926834 0 1 1 9.475378877699733 29.06932892166699"></path></g><circle id="SvgjsCircle1942" r="28.24115853658537" cx="38.5" cy="38.5" class="apexcharts-radialbar-hollow" fill="transparent"></circle><g id="SvgjsG1943" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)" style="opacity: 1;"><text id="SvgjsText1944" font-family="Helvetica, Arial, sans-serif" x="38.5" y="43.5" text-anchor="middle" dominant-baseline="auto" font-size="14px" font-weight="700" fill="#ffbd4a" class="apexcharts-text apexcharts-datalabel-value" style="font-family: Helvetica, Arial, sans-serif;">80</text></g></g></g></g><line id="SvgjsLine1947" x1="0" y1="0" x2="77" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1948" x1="0" y1="0" x2="77" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line></g><g id="SvgjsG1933" class="apexcharts-annotations"></g></svg>
+                                                            <div class="apexcharts-legend"></div>
+                                                        </div>
+                                                    </div>
+                                                </apx-chart>
+                                            </div>
+                                            <div class="widget-detail-1 text-end">
+                                                <h2 class="fw-normal pt-2 mb-1"> 4569 </h2>
+                                                <p class="text-muted mb-1">Revenue today</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-statistics-widget1>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <app-statistics-widget2 title="Daily Sales" subtitle="Revenue today" trendicon="up" variant="pink">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0 mb-3">Daily Sales</h4>
+                                        <div class="widget-box-2">
+                                            <div class="widget-detail-2 text-end"><span class="badge bg-pink float-start mt-3 rounded-pill">32% <i   class="mdi mdi-trending-up"></i></span>
+                                                <h2 class="fw-normal mb-1"> 158 </h2>
+                                                <p class="text-muted mb-3">Revenue today</p>
+                                            </div>
+                                            <ngb-progressbar class="progress progress-bar-alt-pink progress-sm">
+                                                <div role="progressbar" aria-valuemin="0" class="bg-pink progress-bar" aria-valuenow="77" aria-valuemax="100" style="width: 77%;">
+                                                    <!---->
+                                                </div>
+                                            </ngb-progressbar>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-statistics-widget2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <app-sales-chart>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0">Daily Sales</h4>
+                                        <div dir="ltr">
+                                            <apx-chart class="apex-charts mt-2">
+                                                <div style="min-height: 282.7px;">
+                                                    <div id="apexchartsrixai8v3" class="apexcharts-canvas apexchartsrixai8v3 apexcharts-theme-light" style="width: 346px; height: 282.7px;"><svg id="SvgjsSvg1970" width="346" height="282.7" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS"
+                                                            transform="translate(0, 0)" style="background: transparent;"><foreignobject x="0" y="0" width="346" height="282.7"><div class="apexcharts-legend apexcharts-align-center apx-legend-position-bottom" xmlns="http://www.w3.org/1999/xhtml" style="height: 40px; inset: auto 0px 1px; position: absolute;"><div class="apexcharts-legend-series" rel="1" seriesname="InxStorexSales" data:collapsed="false" style="margin: 2px 5px;"><span class="apexcharts-legend-marker" rel="1" data:collapsed="false" style="background: rgb(102, 88, 221) !important; color: rgb(102, 88, 221); height: 12px; width: 12px; left: 0px; top: 0px; border-width: 0px; border-color: rgb(255, 255, 255); border-radius: 12px;"></span><span class="apexcharts-legend-text" rel="1" i="0" data:default-text="In-Store%20Sales" data:collapsed="false" style="color: rgb(102, 88, 221); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">In-Store Sales</span></div><div class="apexcharts-legend-series" rel="2" seriesname="DownloadxSales" data:collapsed="false" style="margin: 2px 5px;"><span class="apexcharts-legend-marker" rel="2" data:collapsed="false" style="background: rgb(255, 138, 204) !important; color: rgb(255, 138, 204); height: 12px; width: 12px; left: 0px; top: 0px; border-width: 0px; border-color: rgb(255, 255, 255); border-radius: 12px;"></span><span class="apexcharts-legend-text" rel="2" i="1" data:default-text="Download%20Sales" data:collapsed="false" style="color: rgb(255, 138, 204); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Download Sales</span></div><div class="apexcharts-legend-series" rel="3" seriesname="MailxOrderxSales" data:collapsed="false" style="margin: 2px 5px;"><span class="apexcharts-legend-marker" rel="3" data:collapsed="false" style="background: rgb(53, 184, 224) !important; color: rgb(53, 184, 224); height: 12px; width: 12px; left: 0px; top: 0px; border-width: 0px; border-color: rgb(255, 255, 255); border-radius: 12px;"></span><span class="apexcharts-legend-text" rel="3" i="2" data:default-text="Mail-Order%20Sales" data:collapsed="false" style="color: rgb(53, 184, 224); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Mail-Order Sales</span></div></div><style type="text/css"></style>	
+    	
+ </foreignobject><g id="SvgjsG1972" class="apexcharts-inner apexcharts-graphical" transform="translate(12, 0)"><defs id="SvgjsDefs1971"><clippath id="gridRectMaskrixai8v3"><rect id="SvgjsRect1974" width="330" height="232" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath><clippath id="forecastMaskrixai8v3"></clippath><clippath id="nonForecastMaskrixai8v3"></clippath><clippath id="gridRectMarkerMaskrixai8v3"><rect id="SvgjsRect1975" width="328" height="234" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath></defs><g id="SvgjsG1976" class="apexcharts-pie"><g id="SvgjsG1977" transform="translate(0, 0) scale(1)"><circle id="SvgjsCircle1978" r="69.02682926829269" cx="162" cy="115" fill="transparent"></circle><g id="SvgjsG1979" class="apexcharts-slices"><g id="SvgjsG1980" class="apexcharts-series apexcharts-pie-series" seriesName="InxStorexSales" rel="1" data:realIndex="0"><path id="SvgjsPath1981" d="M 162 8.80487804878048 A 106.19512195121952 106.19512195121952 0 0 1 172.74358229105562 220.65026912312956 L 168.98332848918614 183.6726749300342 A 69.02682926829269 69.02682926829269 0 0 0 162 45.97317073170731 L 162 8.80487804878048 z" fill="rgba(102,88,221,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-pie-area apexcharts-donut-slice-0" index="0" j="0" data:angle="174.19354838709677" data:startAngle="0" data:strokeWidth="2" data:value="30" data:pathOrig="M 162 8.80487804878048 A 106.19512195121952 106.19512195121952 0 0 1 172.74358229105562 220.65026912312956 L 168.98332848918614 183.6726749300342 A 69.02682926829269 69.02682926829269 0 0 0 162 45.97317073170731 L 162 8.80487804878048 z" stroke="#ffffff"></path></g><g id="SvgjsG1982" class="apexcharts-series apexcharts-pie-series" seriesName="DownloadxSales" rel="2" data:realIndex="1"><path id="SvgjsPath1983" d="M 172.74358229105562 220.65026912312956 A 106.19512195121952 106.19512195121952 0 0 1 66.6575374319266 161.76771063126682 L 100.02739933075229 145.39901191032342 A 69.02682926829269 69.02682926829269 0 0 0 168.98332848918614 183.6726749300342 L 172.74358229105562 220.65026912312956 z" fill="rgba(255,138,204,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-pie-area apexcharts-donut-slice-1" index="0" j="1" data:angle="69.67741935483872" data:startAngle="174.19354838709677" data:strokeWidth="2" data:value="12" data:pathOrig="M 172.74358229105562 220.65026912312956 A 106.19512195121952 106.19512195121952 0 0 1 66.6575374319266 161.76771063126682 L 100.02739933075229 145.39901191032342 A 69.02682926829269 69.02682926829269 0 0 0 168.98332848918614 183.6726749300342 L 172.74358229105562 220.65026912312956 z" stroke="#ffffff"></path></g><g id="SvgjsG1984" class="apexcharts-series apexcharts-pie-series" seriesName="MailxOrderxSales" rel="3" data:realIndex="2"><path id="SvgjsPath1985" d="M 66.6575374319266 161.76771063126682 A 106.19512195121952 106.19512195121952 0 0 1 161.98146545481802 8.804879666224679 L 161.9879525456317 45.97317178304604 A 69.02682926829269 69.02682926829269 0 0 0 100.02739933075229 145.39901191032342 L 66.6575374319266 161.76771063126682 z" fill="rgba(53,184,224,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-pie-area apexcharts-donut-slice-2" index="0" j="2" data:angle="116.12903225806451" data:startAngle="243.8709677419355" data:strokeWidth="2" data:value="20" data:pathOrig="M 66.6575374319266 161.76771063126682 A 106.19512195121952 106.19512195121952 0 0 1 161.98146545481802 8.804879666224679 L 161.9879525456317 45.97317178304604 A 69.02682926829269 69.02682926829269 0 0 0 100.02739933075229 145.39901191032342 L 66.6575374319266 161.76771063126682 z" stroke="#ffffff"></path></g></g></g><g id="SvgjsG1986" class="apexcharts-datalabels-group" transform="translate(0, 0) scale(1)"><text id="SvgjsText1987" font-family="Helvetica, Arial, sans-serif" x="162" y="119" text-anchor="middle" dominant-baseline="auto" font-size="16px" font-weight="600" fill="#98a6ad" class="apexcharts-text apexcharts-datalabel-label" style="font-family: Helvetica, Arial, sans-serif;"></text><text id="SvgjsText1988" font-family="Helvetica, Arial, sans-serif" x="162" y="141" text-anchor="middle" dominant-baseline="auto" font-size="20px" font-weight="400" fill="#98a6ad" class="apexcharts-text apexcharts-datalabel-value" style="font-family: Helvetica, Arial, sans-serif;"></text></g></g><line id="SvgjsLine1989" x1="0" y1="0" x2="324" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1990" x1="0" y1="0" x2="324" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line></g><g id="SvgjsG1973" class="apexcharts-annotations"></g></svg></div>
+                                                </div>
+                                            </apx-chart>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-sales-chart>
+                        </div>
+                        <div class="col-xl-4">
+                            <app-statistics-chart>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0">Statistics</h4>
+                                        <div dir="ltr">
+                                            <apx-chart class="apex-charts mt-2">
+                                                <div style="min-height: 283px;">
+                                                    <div id="apexchartsoiadn3f8" class="apexcharts-canvas apexchartsoiadn3f8 apexcharts-theme-light" style="width: 346px; height: 268px;"><svg id="SvgjsSvg2070" width="346" height="268" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS"
+                                                            transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG2072" class="apexcharts-inner apexcharts-graphical" transform="translate(33.90390586853027, 30)"><defs id="SvgjsDefs2071"><lineargradient id="SvgjsLinearGradient2076" x1="0" y1="0" x2="0" y2="1"><stop id="SvgjsStop2077" stop-opacity="0.4" stop-color="rgba(216,227,240,0.4)" offset="0"></stop><stop id="SvgjsStop2078" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"></stop><stop id="SvgjsStop2079" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"></stop></lineargradient><clippath id="gridRectMaskoiadn3f8"><rect id="SvgjsRect2081" width="316.0960941314697" height="199.70079907417298" x="-2" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath><clippath id="forecastMaskoiadn3f8"></clippath><clippath id="nonForecastMaskoiadn3f8"></clippath><clippath id="gridRectMarkerMaskoiadn3f8"><rect id="SvgjsRect2082" width="316.0960941314697" height="203.70079907417298" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath></defs><rect id="SvgjsRect2080" width="10.403203137715657" height="199.70079907417298" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke-dasharray="3" fill="url(#SvgjsLinearGradient2076)" class="apexcharts-xcrosshairs" y2="199.70079907417298" filter="none" fill-opacity="0.9"></rect><g id="SvgjsG2099" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG2100" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"><text id="SvgjsText2102" font-family="Helvetica, Arial, sans-serif" x="26.008007844289143" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2103">2010</tspan><title>2010</title></text><text id="SvgjsText2105" font-family="Helvetica, Arial, sans-serif" x="78.02402353286743" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2106">2011</tspan><title>2011</title></text><text id="SvgjsText2108" font-family="Helvetica, Arial, sans-serif" x="130.0400392214457" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2109">2012</tspan><title>2012</title></text><text id="SvgjsText2111" font-family="Helvetica, Arial, sans-serif" x="182.056054910024" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2112">2013</tspan><title>2013</title></text><text id="SvgjsText2114" font-family="Helvetica, Arial, sans-serif" x="234.07207059860227" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2115">2014</tspan><title>2014</title></text><text id="SvgjsText2117" font-family="Helvetica, Arial, sans-serif" x="286.0880862871806" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2118">2015</tspan><title>2015</title></text></g></g><g id="SvgjsG2133" class="apexcharts-grid"><g id="SvgjsG2134" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine2136" x1="0" y1="0" x2="312.0960941314697" y2="0" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2137" x1="0" y1="39.940159814834594" x2="312.0960941314697" y2="39.940159814834594" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2138" x1="0" y1="79.88031962966919" x2="312.0960941314697" y2="79.88031962966919" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2139" x1="0" y1="119.82047944450377" x2="312.0960941314697" y2="119.82047944450377" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2140" x1="0" y1="159.76063925933838" x2="312.0960941314697" y2="159.76063925933838" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2141" x1="0" y1="199.70079907417298" x2="312.0960941314697" y2="199.70079907417298" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG2135" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine2143" x1="0" y1="199.70079907417298" x2="312.0960941314697" y2="199.70079907417298" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine2142" x1="0" y1="1" x2="0" y2="199.70079907417298" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG2083" class="apexcharts-bar-series apexcharts-plot-series"><g id="SvgjsG2084" class="apexcharts-series" rel="1" seriesName="Statistics" data:realIndex="0"><path id="SvgjsPath2088" d="M20.806406275431314 199.70079907417298L20.806406275431314 49.92519976854325C20.806406275431314 49.92519976854325 20.806406275431314 49.92519976854325 20.806406275431314 49.92519976854325L31.20960941314697 49.92519976854325C31.20960941314697 49.92519976854325 31.20960941314697 49.92519976854325 31.20960941314697 49.92519976854325L31.20960941314697 49.92519976854325L31.20960941314697 199.70079907417298L31.20960941314697 199.70079907417298C31.20960941314697 199.70079907417298 20.806406275431314 199.70079907417298 20.806406275431314 199.70079907417298 " fill="rgba(24,138,226,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskoiadn3f8)" pathTo="M 20.806406275431314 199.70079907417298L 20.806406275431314 49.92519976854325Q 20.806406275431314 49.92519976854325 20.806406275431314 49.92519976854325L 31.20960941314697 49.92519976854325Q 31.20960941314697 49.92519976854325 31.20960941314697 49.92519976854325L 31.20960941314697 49.92519976854325L 31.20960941314697 199.70079907417298L 31.20960941314697 199.70079907417298z" pathFrom="M 20.806406275431314 199.70079907417298L 20.806406275431314 199.70079907417298L 31.20960941314697 199.70079907417298L 31.20960941314697 199.70079907417298L 31.20960941314697 199.70079907417298L 31.20960941314697 199.70079907417298L 31.20960941314697 199.70079907417298L 20.806406275431314 199.70079907417298" cy="49.92519976854325" cx="72.8224219640096" j="0" val="75" barHeight="149.77559930562973" barWidth="10.403203137715657"></path><path id="SvgjsPath2090" d="M72.8224219640096 199.70079907417298L72.8224219640096 115.82646346302033C72.8224219640096 115.82646346302033 72.8224219640096 115.82646346302033 72.8224219640096 115.82646346302033L83.22562510172526 115.82646346302033C83.22562510172526 115.82646346302033 83.22562510172526 115.82646346302033 83.22562510172526 115.82646346302033L83.22562510172526 115.82646346302033L83.22562510172526 199.70079907417298L83.22562510172526 199.70079907417298C83.22562510172526 199.70079907417298 72.8224219640096 199.70079907417298 72.8224219640096 199.70079907417298 " fill="rgba(24,138,226,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskoiadn3f8)" pathTo="M 72.8224219640096 199.70079907417298L 72.8224219640096 115.82646346302033Q 72.8224219640096 115.82646346302033 72.8224219640096 115.82646346302033L 83.22562510172526 115.82646346302033Q 83.22562510172526 115.82646346302033 83.22562510172526 115.82646346302033L 83.22562510172526 115.82646346302033L 83.22562510172526 199.70079907417298L 83.22562510172526 199.70079907417298z" pathFrom="M 72.8224219640096 199.70079907417298L 72.8224219640096 199.70079907417298L 83.22562510172526 199.70079907417298L 83.22562510172526 199.70079907417298L 83.22562510172526 199.70079907417298L 83.22562510172526 199.70079907417298L 83.22562510172526 199.70079907417298L 72.8224219640096 199.70079907417298" cy="115.82646346302033" cx="124.83843765258788" j="1" val="42" barHeight="83.87433561115265" barWidth="10.403203137715657"></path><path id="SvgjsPath2092" d="M124.83843765258788 199.70079907417298L124.83843765258788 49.92519976854325C124.83843765258788 49.92519976854325 124.83843765258788 49.92519976854325 124.83843765258788 49.92519976854325L135.24164079030353 49.92519976854325C135.24164079030353 49.92519976854325 135.24164079030353 49.92519976854325 135.24164079030353 49.92519976854325L135.24164079030353 49.92519976854325L135.24164079030353 199.70079907417298L135.24164079030353 199.70079907417298C135.24164079030353 199.70079907417298 124.83843765258788 199.70079907417298 124.83843765258788 199.70079907417298 " fill="rgba(24,138,226,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskoiadn3f8)" pathTo="M 124.83843765258788 199.70079907417298L 124.83843765258788 49.92519976854325Q 124.83843765258788 49.92519976854325 124.83843765258788 49.92519976854325L 135.24164079030353 49.92519976854325Q 135.24164079030353 49.92519976854325 135.24164079030353 49.92519976854325L 135.24164079030353 49.92519976854325L 135.24164079030353 199.70079907417298L 135.24164079030353 199.70079907417298z" pathFrom="M 124.83843765258788 199.70079907417298L 124.83843765258788 199.70079907417298L 135.24164079030353 199.70079907417298L 135.24164079030353 199.70079907417298L 135.24164079030353 199.70079907417298L 135.24164079030353 199.70079907417298L 135.24164079030353 199.70079907417298L 124.83843765258788 199.70079907417298" cy="49.92519976854325" cx="176.85445334116616" j="2" val="75" barHeight="149.77559930562973" barWidth="10.403203137715657"></path><path id="SvgjsPath2094" d="M176.85445334116616 199.70079907417298L176.85445334116616 123.81449542598726C176.85445334116616 123.81449542598727 176.85445334116616 123.81449542598727 176.85445334116616 123.81449542598726L187.2576564788818 123.81449542598726C187.2576564788818 123.81449542598727 187.2576564788818 123.81449542598727 187.2576564788818 123.81449542598726L187.2576564788818 123.81449542598726L187.2576564788818 199.70079907417298L187.2576564788818 199.70079907417298C187.2576564788818 199.70079907417298 176.85445334116616 199.70079907417298 176.85445334116616 199.70079907417298 " fill="rgba(24,138,226,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskoiadn3f8)" pathTo="M 176.85445334116616 199.70079907417298L 176.85445334116616 123.81449542598726Q 176.85445334116616 123.81449542598726 176.85445334116616 123.81449542598726L 187.2576564788818 123.81449542598726Q 187.2576564788818 123.81449542598726 187.2576564788818 123.81449542598726L 187.2576564788818 123.81449542598726L 187.2576564788818 199.70079907417298L 187.2576564788818 199.70079907417298z" pathFrom="M 176.85445334116616 199.70079907417298L 176.85445334116616 199.70079907417298L 187.2576564788818 199.70079907417298L 187.2576564788818 199.70079907417298L 187.2576564788818 199.70079907417298L 187.2576564788818 199.70079907417298L 187.2576564788818 199.70079907417298L 176.85445334116616 199.70079907417298" cy="123.81449542598726" cx="228.87046902974444" j="3" val="38" barHeight="75.88630364818572" barWidth="10.403203137715657"></path><path id="SvgjsPath2096" d="M228.87046902974444 199.70079907417298L228.87046902974444 161.7576472500801C228.8704690297444 161.7576472500801 228.8704690297444 161.7576472500801 228.87046902974444 161.7576472500801L239.2736721674601 161.7576472500801C239.27367216746006 161.7576472500801 239.27367216746006 161.7576472500801 239.2736721674601 161.7576472500801L239.2736721674601 161.7576472500801L239.2736721674601 199.70079907417298L239.2736721674601 199.70079907417298C239.2736721674601 199.70079907417298 228.87046902974444 199.70079907417298 228.87046902974444 199.70079907417298 " fill="rgba(24,138,226,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskoiadn3f8)" pathTo="M 228.87046902974444 199.70079907417298L 228.87046902974444 161.7576472500801Q 228.87046902974444 161.7576472500801 228.87046902974444 161.7576472500801L 239.2736721674601 161.7576472500801Q 239.2736721674601 161.7576472500801 239.2736721674601 161.7576472500801L 239.2736721674601 161.7576472500801L 239.2736721674601 199.70079907417298L 239.2736721674601 199.70079907417298z" pathFrom="M 228.87046902974444 199.70079907417298L 228.87046902974444 199.70079907417298L 239.2736721674601 199.70079907417298L 239.2736721674601 199.70079907417298L 239.2736721674601 199.70079907417298L 239.2736721674601 199.70079907417298L 239.2736721674601 199.70079907417298L 228.87046902974444 199.70079907417298" cy="161.7576472500801" cx="280.8864847183227" j="4" val="19" barHeight="37.94315182409286" barWidth="10.403203137715657"></path><path id="SvgjsPath2098" d="M280.8864847183227 199.70079907417298L280.8864847183227 13.979055935192122C280.8864847183227 13.979055935192122 280.8864847183227 13.979055935192122 280.8864847183227 13.979055935192122L291.28968785603837 13.979055935192122C291.28968785603837 13.979055935192122 291.28968785603837 13.979055935192122 291.28968785603837 13.979055935192122L291.28968785603837 13.979055935192122L291.28968785603837 199.70079907417298L291.28968785603837 199.70079907417298C291.28968785603837 199.70079907417298 280.8864847183227 199.70079907417298 280.8864847183227 199.70079907417298 " fill="rgba(24,138,226,1)" fill-opacity="1" stroke-opacity="1" stroke-linecap="round" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskoiadn3f8)" pathTo="M 280.8864847183227 199.70079907417298L 280.8864847183227 13.979055935192122Q 280.8864847183227 13.979055935192122 280.8864847183227 13.979055935192122L 291.28968785603837 13.979055935192122Q 291.28968785603837 13.979055935192122 291.28968785603837 13.979055935192122L 291.28968785603837 13.979055935192122L 291.28968785603837 199.70079907417298L 291.28968785603837 199.70079907417298z" pathFrom="M 280.8864847183227 199.70079907417298L 280.8864847183227 199.70079907417298L 291.28968785603837 199.70079907417298L 291.28968785603837 199.70079907417298L 291.28968785603837 199.70079907417298L 291.28968785603837 199.70079907417298L 291.28968785603837 199.70079907417298L 280.8864847183227 199.70079907417298" cy="13.979055935192122" cx="332.902500406901" j="5" val="93" barHeight="185.72174313898086" barWidth="10.403203137715657"></path><g id="SvgjsG2086" class="apexcharts-bar-goals-markers" style="pointer-events: none"><g id="SvgjsG2087" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG2089" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG2091" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG2093" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG2095" className="apexcharts-bar-goals-groups"></g><g id="SvgjsG2097" className="apexcharts-bar-goals-groups"></g></g></g><g id="SvgjsG2085" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine2144" x1="0" y1="0" x2="312.0960941314697" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine2145" x1="0" y1="0" x2="312.0960941314697" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG2146" class="apexcharts-yaxis-annotations"></g>
+                                                            <g id="SvgjsG2147" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG2148" class="apexcharts-point-annotations"></g></g><g id="SvgjsG2119" class="apexcharts-yaxis" rel="0" transform="translate(15.903905868530273, 0)"><g id="SvgjsG2120" class="apexcharts-yaxis-texts-g"><text id="SvgjsText2121" font-family="Helvetica, Arial, sans-serif" x="20" y="31.5" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2122">100</tspan><title>100</title></text><text id="SvgjsText2123" font-family="Helvetica, Arial, sans-serif" x="20" y="71.4401598148346" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2124">80</tspan><title>80</title></text><text id="SvgjsText2125" font-family="Helvetica, Arial, sans-serif" x="20" y="111.3803196296692" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2126">60</tspan><title>60</title></text><text id="SvgjsText2127" font-family="Helvetica, Arial, sans-serif" x="20" y="151.3204794445038" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2128">40</tspan><title>40</title></text><text id="SvgjsText2129" font-family="Helvetica, Arial, sans-serif" x="20" y="191.2606392593384" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2130">20</tspan><title>20</title></text><text id="SvgjsText2131" font-family="Helvetica, Arial, sans-serif" x="20" y="231.200799074173" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2132">0</tspan><title>0</title></text></g></g><g id="SvgjsG2073" class="apexcharts-annotations"></g></svg>
+                                                        <div class="apexcharts-legend" style="max-height: 134px;"></div>
+                                                        <div class="apexcharts-tooltip apexcharts-theme-dark">
+                                                            <div class="apexcharts-tooltip-title" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"></div>
+                                                            <div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(24, 138, 226);"></span>
+                                                                <div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+                                                                    <div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div>
+                                                                    <div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div>
+                                                                    <div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-dark">
+                                                            <div class="apexcharts-yaxistooltip-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </apx-chart>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-statistics-chart>
+                        </div>
+                        <div class="col-xl-4">
+                            <app-revenue-chart>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0">Total Revenue</h4>
+                                        <div dir="ltr">
+                                            <apx-chart class="apex-charts mt-2">
+                                                <div style="min-height: 283px;">
+                                                    <div id="apexchartsw4q8ykdt" class="apexcharts-canvas apexchartsw4q8ykdt apexcharts-theme-light" style="width: 346px; height: 268px;"><svg id="SvgjsSvg2227" width="346" height="268" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS"
+                                                            transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG2229" class="apexcharts-inner apexcharts-graphical" transform="translate(45.90390586853027, 30)"><defs id="SvgjsDefs2228"><clippath id="gridRectMaskw4q8ykdt"><rect id="SvgjsRect2235" width="282.265625" height="202.70079907417298" x="-3.5" y="-1.5" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath><clippath id="forecastMaskw4q8ykdt"></clippath><clippath id="nonForecastMaskw4q8ykdt"></clippath><clippath id="gridRectMarkerMaskw4q8ykdt"><rect id="SvgjsRect2236" width="279.265625" height="203.70079907417298" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clippath></defs><line id="SvgjsLine2234" x1="0" y1="0" x2="0" y2="199.70079907417298" stroke="#b6b6b6" stroke-dasharray="3" stroke-linecap="butt" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="199.70079907417298" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG2248" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG2249" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"><text id="SvgjsText2251" font-family="Helvetica, Arial, sans-serif" x="0" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2252">2008</tspan><title>2008</title></text><text id="SvgjsText2254" font-family="Helvetica, Arial, sans-serif" x="39.32366071428571" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2255">2009</tspan><title>2009</title></text><text id="SvgjsText2257" font-family="Helvetica, Arial, sans-serif" x="78.64732142857142" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2258">2010</tspan><title>2010</title></text><text id="SvgjsText2260" font-family="Helvetica, Arial, sans-serif" x="117.97098214285714" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2261">2011</tspan><title>2011</title></text><text id="SvgjsText2263" font-family="Helvetica, Arial, sans-serif" x="157.29464285714286" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2264">2012</tspan><title>2012</title></text><text id="SvgjsText2266" font-family="Helvetica, Arial, sans-serif" x="196.61830357142858" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2267">2013</tspan><title>2013</title></text><text id="SvgjsText2269" font-family="Helvetica, Arial, sans-serif" x="235.9419642857143" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2270">2014</tspan><title>2014</title></text><text id="SvgjsText2272" font-family="Helvetica, Arial, sans-serif" x="275.26562500000006" y="228.70079907417298" text-anchor="middle" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-xaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2273">2015</tspan><title>2015</title></text></g></g><g id="SvgjsG2286" class="apexcharts-grid"><g id="SvgjsG2287" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine2289" x1="0" y1="0" x2="275.265625" y2="0" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2290" x1="0" y1="49.925199768543244" x2="275.265625" y2="49.925199768543244" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2291" x1="0" y1="99.85039953708649" x2="275.265625" y2="99.85039953708649" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2292" x1="0" y1="149.77559930562973" x2="275.265625" y2="149.77559930562973" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine2293" x1="0" y1="199.70079907417298" x2="275.265625" y2="199.70079907417298" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG2288" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine2295" x1="0" y1="199.70079907417298" x2="275.265625" y2="199.70079907417298" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine2294" x1="0" y1="1" x2="0" y2="199.70079907417298" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG2237" class="apexcharts-area-series apexcharts-plot-series"><g id="SvgjsG2238" class="apexcharts-series" seriesName="SeriesxA" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath2241" d="M0 199.70079907417298L0 99.8503995370865C13.76328125 99.8503995370865 25.560379464285717 49.92519976854325 39.323660714285715 49.92519976854325C53.086941964285714 49.92519976854325 64.88404017857142 139.7905593519211 78.64732142857143 139.7905593519211C92.41060267857142 139.7905593519211 104.20770089285715 99.8503995370865 117.97098214285714 99.8503995370865C131.73426339285714 99.8503995370865 143.53136160714286 49.92519976854325 157.29464285714286 49.92519976854325C171.05792410714287 49.92519976854325 182.85502232142858 99.8503995370865 196.61830357142858 99.8503995370865C210.3815848214286 99.8503995370865 222.1786830357143 49.92519976854325 235.94196428571428 49.92519976854325C249.70524553571428 49.92519976854325 261.50234375 2.842170943040401e-14 275.265625 2.842170943040401e-14C275.265625 2.842170943040401e-14 275.265625 2.842170943040401e-14 275.265625 199.70079907417298M275.265625 2.842170943040401e-14C275.265625 2.842170943040401e-14 275.265625 2.842170943040401e-14 275.265625 2.842170943040401e-14 " fill="rgba(60,196,105,0)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskw4q8ykdt)" pathTo="M 0 199.70079907417298L 0 99.8503995370865C 13.76328125 99.8503995370865 25.560379464285717 49.92519976854325 39.323660714285715 49.92519976854325C 53.086941964285714 49.92519976854325 64.88404017857142 139.7905593519211 78.64732142857143 139.7905593519211C 92.41060267857142 139.7905593519211 104.20770089285715 99.8503995370865 117.97098214285714 99.8503995370865C 131.73426339285714 99.8503995370865 143.53136160714286 49.92519976854325 157.29464285714286 49.92519976854325C 171.05792410714287 49.92519976854325 182.85502232142858 99.8503995370865 196.61830357142858 99.8503995370865C 210.3815848214286 99.8503995370865 222.1786830357143 49.92519976854325 235.94196428571428 49.92519976854325C 249.70524553571428 49.92519976854325 261.50234375 2.842170943040401e-14 275.265625 2.842170943040401e-14C 275.265625 2.842170943040401e-14 275.265625 2.842170943040401e-14 275.265625 199.70079907417298M 275.265625 2.842170943040401e-14z" pathFrom="M -1 199.70079907417298L -1 199.70079907417298L 39.323660714285715 199.70079907417298L 78.64732142857143 199.70079907417298L 117.97098214285714 199.70079907417298L 157.29464285714286 199.70079907417298L 196.61830357142858 199.70079907417298L 235.94196428571428 199.70079907417298L 275.265625 199.70079907417298"></path><path id="SvgjsPath2242" d="M0 99.8503995370865C13.76328125 99.8503995370865 25.560379464285717 49.92519976854325 39.323660714285715 49.92519976854325C53.086941964285714 49.92519976854325 64.88404017857142 139.7905593519211 78.64732142857143 139.7905593519211C92.41060267857142 139.7905593519211 104.20770089285715 99.8503995370865 117.97098214285714 99.8503995370865C131.73426339285714 99.8503995370865 143.53136160714286 49.92519976854325 157.29464285714286 49.92519976854325C171.05792410714287 49.92519976854325 182.85502232142858 99.8503995370865 196.61830357142858 99.8503995370865C210.3815848214286 99.8503995370865 222.1786830357143 49.92519976854325 235.94196428571428 49.92519976854325C249.70524553571428 49.92519976854325 261.50234375 2.842170943040401e-14 275.265625 2.842170943040401e-14C275.265625 2.842170943040401e-14 275.265625 2.842170943040401e-14 275.265625 2.842170943040401e-14 " fill="none" fill-opacity="1" stroke="#3cc469" stroke-opacity="1" stroke-linecap="butt" stroke-width="3" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskw4q8ykdt)" pathTo="M 0 99.8503995370865C 13.76328125 99.8503995370865 25.560379464285717 49.92519976854325 39.323660714285715 49.92519976854325C 53.086941964285714 49.92519976854325 64.88404017857142 139.7905593519211 78.64732142857143 139.7905593519211C 92.41060267857142 139.7905593519211 104.20770089285715 99.8503995370865 117.97098214285714 99.8503995370865C 131.73426339285714 99.8503995370865 143.53136160714286 49.92519976854325 157.29464285714286 49.92519976854325C 171.05792410714287 49.92519976854325 182.85502232142858 99.8503995370865 196.61830357142858 99.8503995370865C 210.3815848214286 99.8503995370865 222.1786830357143 49.92519976854325 235.94196428571428 49.92519976854325C 249.70524553571428 49.92519976854325 261.50234375 2.842170943040401e-14 275.265625 2.842170943040401e-14" pathFrom="M -1 199.70079907417298L -1 199.70079907417298L 39.323660714285715 199.70079907417298L 78.64732142857143 199.70079907417298L 117.97098214285714 199.70079907417298L 157.29464285714286 199.70079907417298L 196.61830357142858 199.70079907417298L 235.94196428571428 199.70079907417298L 275.265625 199.70079907417298"></path><g id="SvgjsG2239" class="apexcharts-series-markers-wrap" data:realIndex="0"><g class="apexcharts-series-markers"><circle id="SvgjsCircle2301" r="0" cx="0" cy="0" class="apexcharts-marker wdr9o8w4o" stroke="#ffffff" fill="#3cc469" fill-opacity="1" stroke-width="2" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g></g><g id="SvgjsG2243" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG2244" class="apexcharts-series" seriesName="SeriesxB" data:longestSeries="true" rel="1" data:realIndex="1"><path id="SvgjsPath2247" d="M0 199.70079907417298C13.76328125 199.70079907417298 25.560379464285717 119.82047944450379 39.323660714285715 119.82047944450379C53.086941964285714 119.82047944450379 64.88404017857142 39.9401598148346 78.64732142857143 39.9401598148346C92.41060267857142 39.9401598148346 104.20770089285715 119.82047944450379 117.97098214285714 119.82047944450379C131.73426339285714 119.82047944450379 143.53136160714286 179.73071916675568 157.29464285714286 179.73071916675568C171.05792410714287 179.73071916675568 182.85502232142858 119.82047944450379 196.61830357142858 119.82047944450379C210.3815848214286 119.82047944450379 222.1786830357143 99.8503995370865 235.94196428571428 99.8503995370865C249.70524553571428 99.8503995370865 261.50234375 59.9102397222519 275.265625 59.9102397222519C275.265625 59.9102397222519 275.265625 59.9102397222519 275.265625 59.9102397222519 " fill="none" fill-opacity="1" stroke="rgba(24,138,226,1)" stroke-opacity="1" stroke-linecap="butt" stroke-width="3" stroke-dasharray="0" class="apexcharts-line" index="1" clip-path="url(#gridRectMaskw4q8ykdt)" pathTo="M 0 199.70079907417298C 13.76328125 199.70079907417298 25.560379464285717 119.82047944450379 39.323660714285715 119.82047944450379C 53.086941964285714 119.82047944450379 64.88404017857142 39.9401598148346 78.64732142857143 39.9401598148346C 92.41060267857142 39.9401598148346 104.20770089285715 119.82047944450379 117.97098214285714 119.82047944450379C 131.73426339285714 119.82047944450379 143.53136160714286 179.73071916675568 157.29464285714286 179.73071916675568C 171.05792410714287 179.73071916675568 182.85502232142858 119.82047944450379 196.61830357142858 119.82047944450379C 210.3815848214286 119.82047944450379 222.1786830357143 99.8503995370865 235.94196428571428 99.8503995370865C 249.70524553571428 99.8503995370865 261.50234375 59.9102397222519 275.265625 59.9102397222519" pathFrom="M -1 199.70079907417298L -1 199.70079907417298L 39.323660714285715 199.70079907417298L 78.64732142857143 199.70079907417298L 117.97098214285714 199.70079907417298L 157.29464285714286 199.70079907417298L 196.61830357142858 199.70079907417298L 235.94196428571428 199.70079907417298L 275.265625 199.70079907417298"></path><g id="SvgjsG2245" class="apexcharts-series-markers-wrap" data:realIndex="1"><g class="apexcharts-series-markers"><circle id="SvgjsCircle2302" r="0" cx="0" cy="0" class="apexcharts-marker wmgeyv86lk" stroke="#ffffff" fill="#188ae2" fill-opacity="1" stroke-width="2" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG2240" class="apexcharts-datalabels" data:realIndex="0"></g>
+                                                            <g id="SvgjsG2246" class="apexcharts-datalabels" data:realIndex="1"></g></g><line id="SvgjsLine2296" x1="0" y1="0" x2="275.265625" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine2297" x1="0" y1="0" x2="275.265625" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG2298" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG2299" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG2300" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect2233" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG2274" class="apexcharts-yaxis" rel="0" transform="translate(15.903905868530273, 0)"><g id="SvgjsG2275" class="apexcharts-yaxis-texts-g"><text id="SvgjsText2276" font-family="Helvetica, Arial, sans-serif" x="20" y="31.4" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2277">100</tspan><title>100</title></text><text id="SvgjsText2278" font-family="Helvetica, Arial, sans-serif" x="20" y="81.32519976854326" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2279">75</tspan><title>75</title></text><text id="SvgjsText2280" font-family="Helvetica, Arial, sans-serif" x="20" y="131.2503995370865" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2281">50</tspan><title>50</title></text><text id="SvgjsText2282" font-family="Helvetica, Arial, sans-serif" x="20" y="181.17559930562976" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2283">25</tspan><title>25</title></text><text id="SvgjsText2284" font-family="Helvetica, Arial, sans-serif" x="20" y="231.100799074173" text-anchor="end" dominant-baseline="auto" font-size="11px" font-weight="400" fill="#adb5bd" class="apexcharts-text apexcharts-yaxis-label " style="font-family: Helvetica, Arial, sans-serif;"><tspan id="SvgjsTspan2285">0</tspan><title>0</title></text></g></g><g id="SvgjsG2230" class="apexcharts-annotations"></g></svg>
+                                                        <div class="apexcharts-legend" style="max-height: 134px;"></div>
+                                                        <div class="apexcharts-tooltip apexcharts-theme-dark">
+                                                            <div class="apexcharts-tooltip-title" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"></div>
+                                                            <div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(60, 196, 105);"></span>
+                                                                <div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+                                                                    <div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div>
+                                                                    <div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div>
+                                                                    <div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="apexcharts-tooltip-series-group" style="order: 2;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(24, 138, 226);"></span>
+                                                                <div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+                                                                    <div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div>
+                                                                    <div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div>
+                                                                    <div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="apexcharts-xaxistooltip apexcharts-xaxistooltip-bottom apexcharts-theme-dark">
+                                                            <div class="apexcharts-xaxistooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"></div>
+                                                        </div>
+                                                        <div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-dark">
+                                                            <div class="apexcharts-yaxistooltip-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </apx-chart>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-revenue-chart>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6">
+                            <app-widget-user-card name="Chadengle" email="coderthemes@gmail.com" avatar="assets/images/users/user-3.jpg" designation="Admin" variant="warning">
+                                <div class="card">
+                                    <div class="card-body widget-user">
+                                        <div class="d-flex align-items-center">
+                                            <div class="avatar-lg me-3 flex-shrink-0"><img alt="user" class="img-fluid rounded-circle" src="img/user-3.jpg"></div>
+                                            <div class="flex-grow-1 overflow-hidden">
+                                                <h5 class="mt-0 mb-1">Chadengle</h5>
+                                                <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p><small class="text-warning"><b  >Admin</b></small></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-widget-user-card>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <app-widget-user-card name="Michael Zenaty" email="coderthemes@gmail.com" avatar="assets/images/users/user-2.jpg" designation="Support Lead" variant="pink">
+                                <div class="card">
+                                    <div class="card-body widget-user">
+                                        <div class="d-flex align-items-center">
+                                            <div class="avatar-lg me-3 flex-shrink-0"><img alt="user" class="img-fluid rounded-circle" src="img/user-2.jpg"></div>
+                                            <div class="flex-grow-1 overflow-hidden">
+                                                <h5 class="mt-0 mb-1">Michael Zenaty</h5>
+                                                <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p><small class="text-pink"><b  >Support Lead</b></small></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-widget-user-card>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <app-widget-user-card name="Stillnotdavid" email="coderthemes@gmail.com" avatar="assets/images/users/user-1.jpg" designation="Designer" variant="success">
+                                <div class="card">
+                                    <div class="card-body widget-user">
+                                        <div class="d-flex align-items-center">
+                                            <div class="avatar-lg me-3 flex-shrink-0"><img alt="user" class="img-fluid rounded-circle" src="img/user-1.jpg"></div>
+                                            <div class="flex-grow-1 overflow-hidden">
+                                                <h5 class="mt-0 mb-1">Stillnotdavid</h5>
+                                                <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p><small class="text-success"><b  >Designer</b></small></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-widget-user-card>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <app-widget-user-card name="Tomaslau" email="coderthemes@gmail.com" avatar="assets/images/users/user-10.jpg" designation="Developer" variant="info">
+                                <div class="card">
+                                    <div class="card-body widget-user">
+                                        <div class="d-flex align-items-center">
+                                            <div class="avatar-lg me-3 flex-shrink-0"><img alt="user" class="img-fluid rounded-circle" src="img/user-10.jpg"></div>
+                                            <div class="flex-grow-1 overflow-hidden">
+                                                <h5 class="mt-0 mb-1">Tomaslau</h5>
+                                                <p class="text-muted mb-2 font-13 text-truncate">coderthemes@gmail.com</p><small class="text-info"><b  >Developer</b></small></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-widget-user-card>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <app-dashboard-inbox>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mb-3">Inbox</h4>
+                                        <div class="inbox-widget">
+                                            <div class="inbox-item">
+                                                <a>
+                                                    <div class="inbox-item-img"><img alt="" class="rounded-circle" src="img/user-1.jpg"></div>
+                                                    <h5 class="inbox-item-author mt-0 mb-1">Chadengle</h5>
+                                                    <p class="inbox-item-text">Hey! there I'm available...</p>
+                                                    <p class="inbox-item-date">13:40 PM</p>
+                                                </a>
+                                            </div>
+                                            <div class="inbox-item">
+                                                <a>
+                                                    <div class="inbox-item-img"><img alt="" class="rounded-circle" src="img/user-2.jpg"></div>
+                                                    <h5 class="inbox-item-author mt-0 mb-1">Tomaslau</h5>
+                                                    <p class="inbox-item-text">I've finished it! See you so...</p>
+                                                    <p class="inbox-item-date">13:34 PM</p>
+                                                </a>
+                                            </div>
+                                            <div class="inbox-item">
+                                                <a>
+                                                    <div class="inbox-item-img"><img alt="" class="rounded-circle" src="img/user-3.jpg"></div>
+                                                    <h5 class="inbox-item-author mt-0 mb-1">Stillnotdavid</h5>
+                                                    <p class="inbox-item-text">This theme is awesome!</p>
+                                                    <p class="inbox-item-date">13:17 PM</p>
+                                                </a>
+                                            </div>
+                                            <div class="inbox-item">
+                                                <a>
+                                                    <div class="inbox-item-img"><img alt="" class="rounded-circle" src="img/user-4.jpg"></div>
+                                                    <h5 class="inbox-item-author mt-0 mb-1">Kurafire</h5>
+                                                    <p class="inbox-item-text">Nice to meet you</p>
+                                                    <p class="inbox-item-date">12:20 PM</p>
+                                                </a>
+                                            </div>
+                                            <div class="inbox-item">
+                                                <a>
+                                                    <div class="inbox-item-img"><img alt="" class="rounded-circle" src="img/user-5.jpg"></div>
+                                                    <h5 class="inbox-item-author mt-0 mb-1">Shahedk</h5>
+                                                    <p class="inbox-item-text">Hey! there I'm available...</p>
+                                                    <p class="inbox-item-date">10:15 PM</p>
+                                                </a>
+                                            </div>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-dashboard-inbox>
+                        </div>
+                        <div class="col-xl-8">
+                            <app-dashboard-projects>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div ngbdropdown="" placement="bottom-end" class="float-end dropdown"><a href="javascript:void(0);" ngbdropdowntoggle="" class="dropdown-toggle arrow-none card-drop" aria-expanded="false"><i   class="mdi mdi-dots-vertical"></i></a>
+                                            <div ngbdropdownmenu="" data-popper="bottom-end" class="dropdown-menu"><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Action</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Another action</a>
+                                                <a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Something else</a><a href="javascript:void(0);" ngbdropdownitem="" class="dropdown-item">Separated link</a></div>
+                                        </div>
+                                        <h4 class="header-title mt-0 mb-3">Latest Projects</h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-hover mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Project Name</th>
+                                                        <th>Start Date</th>
+                                                        <th>Due Date</th>
+                                                        <th>Status</th>
+                                                        <th>Assign</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Adminto Admin v1</td>
+                                                        <td>01/01/2017</td>
+                                                        <td>26/04/2017</td>
+                                                        <td><span class="badge bg-danger">Released</span></td>
+                                                        <td>Coderthemes</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Adminto Frontend v1</td>
+                                                        <td>01/01/2017</td>
+                                                        <td>26/04/2017</td>
+                                                        <td><span class="badge bg-success">Released</span></td>
+                                                        <td>Adminto admin</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Adminto Admin v1.1</td>
+                                                        <td>01/05/2017</td>
+                                                        <td>10/05/2017</td>
+                                                        <td><span class="badge bg-pink">Pending</span></td>
+                                                        <td>Coderthemes</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>Adminto Frontend v1.1</td>
+                                                        <td>01/01/2017</td>
+                                                        <td>31/05/2017</td>
+                                                        <td><span class="badge bg-purple">Work in Progress</span></td>
+                                                        <td>Adminto admin</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>Adminto Admin v1.3</td>
+                                                        <td>01/01/2017</td>
+                                                        <td>31/05/2017</td>
+                                                        <td><span class="badge bg-warning">Coming soon</span></td>
+                                                        <td>Coderthemes</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>Adminto Admin v1.3</td>
+                                                        <td>01/01/2017</td>
+                                                        <td>31/05/2017</td>
+                                                        <td><span class="badge bg-blue">Coming soon</span></td>
+                                                        <td>Adminto admin</td>
+                                                    </tr>
+                                                    <!---->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </app-dashboard-projects>
+                        </div>
+                    </div>
+                </app-dashboard-1>
+                <!---->
+            </div>
+            <!---->
+        </div>
+        <app-footer>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6"> 2023 © Adminto theme by Coderthemes</a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-sm-block"><a href="javascript:void(0);">About Us</a><a href="javascript:void(0);">Help</a><a href="javascript:void(0);">Contact Us</a></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </app-footer>
+    </div>
+    </div>
+    <app-right-sidebar layouttype="vertical">
+        <div class="right-bar">
+            <ngx-simplebar data-simplebar="init" class="h-100 simplebar-scrollable-y">
+                <div class="simplebar-wrapper" style="margin: 0px;">
+                    <div class="simplebar-height-auto-observer-wrapper">
+                        <div class="simplebar-height-auto-observer"></div>
+                    </div>
+                    <div class="simplebar-mask">
+                        <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                            <div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll;">
+                                <div class="simplebar-content" style="padding: 0px;">
+                                    <div class="rightbar-title"><a href="javascript:void(0);" class="right-bar-toggle float-end"><i   class="mdi mdi-close"></i></a>
+                                        <h4 class="font-16 m-0 text-white">Theme Customizer</h4>
+                                    </div>
+                                    <div class="p-3">
+                                        <ngb-alert role="alert" type="warning" class="alert show alert-warning fade"><strong>Customize </strong> the overall color scheme, sidebar menu, etc
+                                            <!---->
+                                        </ngb-alert>
+                                        <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Layout Type</h6>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="layoutType" value="vertical" id="vertical-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="vertical-check" class="form-check-label">Vertical Layout</label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="layoutType" value="horizontal" id="horizontal-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="horizontal-check" class="form-check-label">Horizontal Layout</label></div>
+                                        <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Color Scheme</h6>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="layoutColor" value="light" id="light-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="light-check" class="form-check-label">Light</label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="layoutColor" value="dark" id="dark-check" class="form-check-input ng-valid ng-dirty ng-touched"><label for="dark-check" class="form-check-label">Dark</label></div>
+                                        <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Width</h6>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="layoutWidth" value="fluid" id="fluid-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="fluid-check" class="form-check-label">Fluid</label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="layoutWidth" value="boxed" id="boxed-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="boxed-check" class="form-check-label">Boxed</label></div>
+                                        <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Menus (Leftsidebar and Topbar) Positon</h6>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarPosition" value="fixed" id="fixed-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="fixed-check" class="form-check-label">Fixed</label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarPosition" value="scrollable" id="scrollable-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="scrollable-check" class="form-check-label">Scrollable</label></div>
+                                        <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Left Sidebar Color</h6>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarColor" value="light" id="light-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="light-check" class="form-check-label">Light</label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarColor" value="dark" id="dark-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="dark-check" class="form-check-label">Dark</label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarColor" value="brand" id="brand-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="brand-check" class="form-check-label">Brand</label></div>
+                                        <div class="form-check form-switch mb-3"><input type="radio" name="leftbarColor" value="gradient" id="gradient-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="gradient-check" class="form-check-label">Gradient</label></div>
+                                        <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Left Sidebar Size</h6>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarSize" value="default" id="default-size-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="default-size-check" class="form-check-label">Default</label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarSize" value="condensed" id="condensed-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="condensed-check" class="form-check-label">Condensed <small  >(Extra Small size)</small></label></div>
+                                        <div class="form-check form-switch mb-1"><input type="radio" name="leftbarSize" value="compact" id="compact-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="compact-check" class="form-check-label">Compact <small  >(Small size)</small></label></div>
+                                        <!---->
+                                        <!---->
+                                        <!---->
+                                        <!---->
+                                        <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Sidebar User Info</h6>
+                                        <div class="form-check form-switch mb-1"><input type="checkbox" name="showSidebarUserInfo" value="fixed" id="sidebaruser-check" class="form-check-input ng-untouched ng-pristine ng-valid"><label for="sidebaruser-check" class="form-check-label">Enable</label></div>
+                                        <!---->
+                                        <!---->
+                                        <!---->
+                                        <div class="d-grid mt-4"><button id="resetBtn" class="btn btn-primary">Reset to Default</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simplebar-placeholder" style="width: 260px; height: 1181px;"></div>
+                </div>
+                <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                    <div class="simplebar-scrollbar" style="width: 0px; display: none;"></div>
+                </div>
+                <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                    <div class="simplebar-scrollbar" style="height: 462px; transform: translate3d(0px, 0px, 0px); display: block;"></div>
+                </div>
+            </ngx-simplebar>
+        </div>
+        <div class="rightbar-overlay"></div>
+    </app-right-sidebar>
+    </app-vertical-layout>
+
+
+
+    <script src=".js/runtime.9fc89f74578a6a53.js.download" type="module"></script>
+    <script src=".js/polyfills.ddda5a8c9b04e40d.js.download" type="module"></script>
+    <script src=".js/main.50ebb8766186746f.js.download" type="module"></script>
+
+    <svg id="SvgjsSvg1431" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1432"></defs><polyline id="SvgjsPolyline1433" points="0,0"></polyline><path id="SvgjsPath1434" d="M-1 199.70079907417298L-1 199.70079907417298C-1 199.70079907417298 39.323660714285715 199.70079907417298 39.323660714285715 199.70079907417298C39.323660714285715 199.70079907417298 78.64732142857143 199.70079907417298 78.64732142857143 199.70079907417298C78.64732142857143 199.70079907417298 117.97098214285714 199.70079907417298 117.97098214285714 199.70079907417298C117.97098214285714 199.70079907417298 157.29464285714286 199.70079907417298 157.29464285714286 199.70079907417298C157.29464285714286 199.70079907417298 196.61830357142858 199.70079907417298 196.61830357142858 199.70079907417298C196.61830357142858 199.70079907417298 235.94196428571428 199.70079907417298 235.94196428571428 199.70079907417298C235.94196428571428 199.70079907417298 275.265625 199.70079907417298 275.265625 199.70079907417298C275.265625 199.70079907417298 275.265625 199.70079907417298 275.265625 199.70079907417298 "></path></svg></body>
+
+</html>

@@ -1,0 +1,27 @@
+*{
+  font-style: italic;
+  
+}
+.example-card {
+    max-width: 600px;
+    margin-bottom: 8px;
+   
+  }
+  #chart {
+    max-width: 650px;
+    margin: 35px auto;
+  }
+  .ico{
+    color: lightgreen;
+    size: smaller;
+    font-weight: 100;
+    font-size: x-small;
+    font-style: serif;
+  }
+  h1{
+    font-weight: 100;
+  }
+  .all{
+    background-color: whitesmoke;
+  }
+ 

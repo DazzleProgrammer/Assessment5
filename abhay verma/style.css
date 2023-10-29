@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+.BodyColor{
+    background-color: rgb(54, 53, 53) !important;
+}
+#sidebarContent{
+    background-color: #fff;
+}
+.AllConents{
+    margin-left: 10%;
+}
+.card-title{
+    color: #fff;
+}
+.card-body{
+    background-color: rgb(54, 53, 53);
+}
+.circleImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    background-color: #f0f8ff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circleImage img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%; 
+  }
+.HeadMain{
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.HeadMain p{
+    color: #fff;
+    font-size: 0.5rem;
+}
+.progress-wrapper {
+    margin: 20px 0;
+  }
+  .client-box h5,p{
+    color: #fff;
+  }
+
+  .circular-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    background-color: #6f4747;
+    border-radius: 50%;
+  }
+
+  .regular-progress {
+    height: 20px;
+  }
+  .card-Head{
+    margin-top: -5% ;
+    text-align:end;
+  }
+  #Q2ndBody{
+
+    height: 250px;
+  }
+  .card-Head01{
+    color: #fff;
+   margin-top: 5%;
+    text-align:end;
+  }
+  #grid01{
+    margin-top: -33%;
+  }
+  .card-img-top {
+    height: 250px; 
+    width: 100px;  
+    margin: 0 auto; 
+    display: block; 
+  }
+  #grid02{
+    margin-top: 3%;
+  }
+
+  .client-box {
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .client-inbox {
+    background-color: rgb(54, 53, 53);
+  }
+  .client-inbox h4,.latest-projects h4{
+    color: #fff;
+  }
+  .client h5,p{
+    color: #fff;
+  }
+  .project h5,p{
+    color: #fff;
+  }
+  .latest-projects{
+    background-color: rgb(54, 53, 53);
+  }
+  .price{
+    color: #fff;
+  }
+  .grid-box01 h4{
+    color: rgb(24, 93, 117);
+  }
+
+  .client-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  #grid03{
+    margin-top: 3%;
+  }
+  .client-inbox {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+
+  .client {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .client-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .latest-projects {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+  }
+
+  .project {
+    margin-bottom: 20px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-detail {
+    flex: 1;
+  }
+  .project{
+    display: flex;
+  }
+
+
+  .grid-box01{
+    text-align: center;
+    background-color: rgb(54, 53, 53);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .button {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #grid04{
+    margin-top: 10%;
+    padding-bottom: 5%;
+  }

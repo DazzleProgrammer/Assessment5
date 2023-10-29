@@ -1,0 +1,30 @@
+.card {
+    background-color: #313844;
+}
+
+p {
+    line-height: 15px;
+    color: rgb(201, 201, 201);
+}
+
+.pricetext {
+    font-size: 13px !important;
+}
+
+.buttontext {
+    font-size: 10px !important;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(42, 211, 62);
+    border-radius: 25px;
+    border: 2px solid rgb(42, 211, 62);
+}
+
+.backcolor {
+    background-color: #272b33;
+    padding: 8%;
+}
+
+.footer {
+    background-color: #393c43;
+}

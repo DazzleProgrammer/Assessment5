@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5e2291de59.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="name">Username:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="button" class="btn" onclick="validateLogin()">Login</button>
+        </form>
+    </div>
+
+    <!-- Add an anchor tag with an id for redirection -->
+    <a id="redirectLink" style="display: none;" href="C:\Users\chand\OneDrive\Desktop\24Oct_Test\DashBoard\index.html"></a>
+
+    <script>
+        function validateLogin() {
+            var username = document.getElementById("name").value;
+            var password = document.getElementById("password").value;
+
+            if (username && password) {
+                // Display a message and then redirect
+                alert("Login successful!");
+                document.getElementById("redirectLink").click();
+            } else {
+                alert("Please fill in both fields.");
+            }
+        }
+    </script>
+</body>
+</html>
